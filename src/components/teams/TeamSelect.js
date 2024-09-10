@@ -14,35 +14,41 @@ export const TeamSelect = () => {
     {
       team: "Software Team",
       icon: <FiCode size={14} strokeWidth={3} />,
-      description: "Developing communication interfaces",
-      linkTo: "/software",
+      description: "Developing interfaces",
+      linkTo: "/teams/software",
     },
     {
       team: "Firmware Team",
       icon: <FiTerminal size={14} strokeWidth={3} />,
-      description: "Developing circuit boards and firmware",
-      linkTo: "/firmware",
+      description: "Developing circuit boards",
+      linkTo: "/teams/firmware",
     },
     {
       team: "Mechanics Team",
       icon: <FiSliders size={14} strokeWidth={3} />,
       description: "Designing mechanical elements",
-      linkTo: "/mechanics",
+      linkTo: "/teams/mechanics",
     },
     {
       team: "Electronics Team",
       icon: <FiGitPullRequest size={14} strokeWidth={3} />,
       description: "Designing electronic components",
-      linkTo: "/electronics",
+      linkTo: "/teams/electronics",
+    },
+    {
+      team: "Executive Team",
+      icon: <FiCode size={14} strokeWidth={3} />,
+      description: "Bring ideas to life",
+      linkTo: "/join",
     },
   ];
 
   return (
-    <div className="w-full h-max flex flex-col lg:flex-row gap-4 lg:gap-14 mt-4 lg:mt-6 flex-wrap">
+    <div className="w-full h-max flex flex-col lg:flex-row gap-4 lg:gap-14 mt-4 lg:mt-6 flex-row">
       {teams.map((team, index) => (
         <Link
           key={index}
-          to={`/teams${team.linkTo}`}
+          to={`${team.linkTo}`}
           className="teamSelect px-4 py-4 lg:py-3 text-left flex rounded-xl flex-col lg:w-1/5 "
         >
           <h4 className="plus-jakarta-sans-heading text-xl text-black mb-1 flex flex-row items-center gap-2">
