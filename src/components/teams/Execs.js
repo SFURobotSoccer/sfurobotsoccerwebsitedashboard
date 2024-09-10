@@ -60,13 +60,13 @@ export const Execs = () => {
       image: zacharyGoodman,
       name: "Zachary Goodman",
       role: "Mechanics Team Lead",
-      linkedIn: "https://www.linkedin.com/in/zach-spencer",
+      linkedIn: "https://www.linkedin.com/in/zachary-goodman-2738a5270/",
     },
     {
       image: julianHosseini,
       name: "Julian Hosseini",
       role: "Electronics Team Lead",
-      linkedIn: "https://www.linkedin.com/in/zach-spencer",
+      linkedIn: "https://www.linkedin.com/in/julian-hosseini-340aab239",
     },
     {
       image: sukhrajPureWal,

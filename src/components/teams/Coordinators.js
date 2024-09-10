@@ -17,7 +17,7 @@ export const Coordinators = () => {
       image: richKo,
       name: "Masa Wong",
       role: "Outreach Coordinator",
-      linkedIn: null,
+      linkedIn: "https://www.linkedin.com/company/sfurs/",
     },
     {
       image: rahimDharamsi,
@@ -53,7 +53,7 @@ export const Coordinators = () => {
       image: richKo,
       name: "Teddy Atulya",
       role: "Corporate Relations Coordinator",
-      linkedIn: null,
+      linkedIn: "https://www.linkedin.com/company/sfurs/",
     },
   ];
 
