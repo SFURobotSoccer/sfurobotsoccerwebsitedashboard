@@ -3,6 +3,14 @@ import { FiArrowUpRight, FiFileText } from "react-icons/fi";
 export const OpenRoles = () => {
   const openRoles = [
     {
+      name: "VP of Finance",
+      description:
+        "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      descriptionLink: null,
+    },
+    {
       name: "Director of Communications",
       description:
         "Develop semester update newsletters to inform major sponsors about the impact of their sponsorship. Create and send follow-up letters to sponsors approximately 3 months after receiving a sponsorship, detailing how funds were spent. Assist in managing internal communications within the club. Aid in event communications to ensure clear and consistent messaging.",
@@ -64,7 +72,7 @@ export const OpenRoles = () => {
           interested in joining one of these teams then apply now!
         </h3>
         <div className="flex gap-10 mt-2 lg:mt-10 lg:mt-0 lg:gap-10 flex-col">
-          <div className="flex flex-wrap gap-5">
+          <div className="flex flex-wrap w-3/4 gap-x-4 gap-y-10">
             {openRoles.length !== 0 ? (
               openRoles.map((role, index) => (
                 <>
