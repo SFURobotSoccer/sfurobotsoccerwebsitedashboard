@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: icons;
+  src: url(./fonts/Social\ Media\ Circled.ttf);
+}
+
+.icons{
+  font-family: icons;
+}
+
+.App {
+  text-align: center;
+}
+
+.sideBarBG{
+  background-color: rgb(250, 250, 250);
+}
+
+.inputBG{
+  background-color: #F6F6FB;
+}
+
+.buttonPrimary{
+  background-color: rgb(195, 45, 52, 0.15);
+  color: #C32D34;
+  transition: 0.3s ease-in-out;
+}
+
+.buttonPrimary:hover{
+  background-color: #C32D34;
+  color: white;
+}
+
+#buttonPrimary{
+  background-color: rgb(195, 45, 52, 0.15);
+  color: #C32D34;
+  transition: 0.3s ease-in-out;
+}
+
+
+#buttonPrimary2{
+  background-color: rgb(0, 0, 0, 0.05);
+  width: 16.5vw;
+  color: #C32D34;
+  transition: 0.3s ease-in-out;
+}
+
+
+#buttonSecondary{
+  background-color: transparent;
+  color: black;
+  transition: 0.3s ease-in-out;
+  opacity: 40%;
+}
+
+#buttonSecondary:hover{
+  color: black;
+  opacity: 100%;
+}
+
+.navBorder{
+  border-bottom: 0.5px solid rgb(0,0,0, 0.5);
+}
+
+.plus-jakarta-sans-heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-heavy {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Change this to the desired weight */
+  font-style: normal;
+}
+
+.plus-jakarta-sans-body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Change this to the desired weight */
+  font-style: normal;
+}
+
+.heroImage{
+  filter: brightness(75%) grayscale(100%);
+}
+
+@keyframes slideInElement {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slideIn{
+  animation: slideInElement 0.6s ease forwards;
+}
+
+.heroImageBG{
+  background-image: url(./images/sfuRobotSoccerRobotPhoto.png);
+  background-size: cover;
+  background-position: calc(40%);
+}
+
+.spin{
+  animation: spinAnimation 0.5s ease forwards;
+}
+
+@keyframes spinAnimation {
+  0% {
+    rotate: 180deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+.teamSelect{
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.teamSelect:hover{
+  background-color: rgb(247, 247, 247);
+}
+
+.font-red-200{
+  color: #C32D34;
+}
+
+.line{
+  height: 1px;
+}
+
+.active{
+  color: #C32D34;
+  transition: 0.2s ease-in-out;
+}
+
+.unselectable {
+  user-select: none;
+  pointer-events: none;
+}
+.fadeDownAnimation {
+  opacity: 0; 
+  visibility: hidden; 
+  animation: fadeDown 0.75s ease-in-out infinite; /* Add infinite for constant animation */
+  animation-delay: 1s; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+    visibility: hidden;
+  }
+}
+
+.heroBGMobile{
+  
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .teamSelect:hover{
+    background-color: transparent;
+  }
+
+.fadeDownAnimation {
+  opacity: 0; 
+  visibility: hidden; 
+  animation: fadeDown 3s ease-in-out infinite; /* Add infinite for constant animation */
+  animation-delay: 1s; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.35;
+    transform: translateY(0px);
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+    visibility: hidden;
+  }
+}
+
+}
