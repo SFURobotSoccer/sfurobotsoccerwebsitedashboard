@@ -26,12 +26,6 @@ export const Directors = () => {
       linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
     },
     {
-      image: quinKohlman,
-      name: "Quin Kohlman",
-      role: "Director of Corporate Relations",
-      linkedIn: "https://www.linkedin.com/in/quin-kohlman-2784b3238/",
-    },
-    {
       image: estherCho,
       name: "Esther Cho",
       role: "Director of Internal Relations",

@@ -3,6 +3,14 @@ import { FiArrowUpRight, FiFileText } from "react-icons/fi";
 export const OpenRoles = () => {
   const openRoles = [
     {
+      name: "VP of Operations",
+      description:
+        "Oversees the team's logistics, ensuring smooth operations during competitions and events. This role includes managing schedules, coordinating resources, maintaining equipment, and optimizing workflows to support the team's performance.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      descriptionLink: null,
+    },
+    {
       name: "VP of Finance",
       description:
         "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
@@ -14,6 +22,14 @@ export const OpenRoles = () => {
       name: "Director of Communications",
       description:
         "Develop semester update newsletters to inform major sponsors about the impact of their sponsorship. Create and send follow-up letters to sponsors approximately 3 months after receiving a sponsorship, detailing how funds were spent. Assist in managing internal communications within the club. Aid in event communications to ensure clear and consistent messaging.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      descriptionLink: null,
+    },
+    {
+      name: "Director of Corporate Relations",
+      description:
+        "Responsible for building and maintaining partnerships with corporate sponsors and industry stakeholders. This role involves securing sponsorships, managing relationships with external partners, and exploring collaboration opportunities.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
       descriptionLink: null,
@@ -72,11 +88,14 @@ export const OpenRoles = () => {
           interested in joining one of these teams then apply now!
         </h3>
         <div className="flex gap-10 mt-2 lg:mt-10 lg:mt-0 lg:gap-10 flex-col">
-          <div className="flex flex-wrap w-3/4 gap-x-4 gap-y-10">
+          <div className="flex flex-wrap gap-x-4 gap-y-4">
             {openRoles.length !== 0 ? (
               openRoles.map((role, index) => (
                 <>
-                  <div key={index} className="flex flex-col gap-3">
+                  <div
+                    key={index}
+                    className="flex bg-black bg-opacity-5 lg:hover:bg-opacity-0 lg:hover:cursor-default transition duration-300 ease-in-out px-4 py-2 rounded-lg flex-col gap-3"
+                  >
                     <div className="flex flex-col lg:w-10/12">
                       <h2 className="plus-jakarta-sans-button text-xl">
                         {role.name}

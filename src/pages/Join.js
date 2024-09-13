@@ -4,9 +4,25 @@ import { FiArrowUpRight, FiFileText } from "react-icons/fi";
 export const Join = () => {
   const openRoles = [
     {
+      name: "VP of Operations",
+      description:
+        "Oversees the team's logistics, ensuring smooth operations during competitions and events. This role includes managing schedules, coordinating resources, maintaining equipment, and optimizing workflows to support the team's performance.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      descriptionLink: null,
+    },
+    {
       name: "VP of Finance",
       description:
         "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      descriptionLink: null,
+    },
+    {
+      name: "Director of Corporate Relations",
+      description:
+        "Responsible for building and maintaining partnerships with corporate sponsors and industry stakeholders. This role involves securing sponsorships, managing relationships with external partners, and exploring collaboration opportunities.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
       descriptionLink: null,

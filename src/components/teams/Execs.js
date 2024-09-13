@@ -39,12 +39,6 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/thomas-challis-36460b1ba/",
     },
     {
-      image: defaultPhoto,
-      name: "Joshua Echallier",
-      role: "VP of Operations",
-      linkedIn: "https://www.linkedin.com/in/joshua-echallier-354102216/",
-    },
-    {
       image: araChristie,
       name: "Ara Christie",
       role: "VP Admin & Director of Graphic Design",
