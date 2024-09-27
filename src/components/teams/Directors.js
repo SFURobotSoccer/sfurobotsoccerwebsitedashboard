@@ -1,8 +1,7 @@
 import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 import React, {useState} from "react";
 import harjotSingh from '../../images/peopleimages/harjotSingh.webp';
-import jerryHo from '../../images/peopleimages/jerry.webp';
-import quinKohlman from "../../images/QuinKohlman.webp";
+import jayKewalramani from "../../images/1710526962488.webp";
 import estherCho from "../../images/peopleimages/esther.webp";
 
 export const Directors = () => {
@@ -20,10 +19,11 @@ export const Directors = () => {
       linkedIn: "https://www.linkedin.com/in/harjotsingh7/",
     },
     {
-      image: jerryHo,
-      name: "Jerry Hu",
-      role: "Director of Accounting",
-      linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
+      image: jayKewalramani,
+      name: "Jay Kewalramani",
+      role: "Director of Marketing",
+      linkedIn:
+        "https://www.linkedin.com/in/jay-kewalramani-645510259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       image: estherCho,

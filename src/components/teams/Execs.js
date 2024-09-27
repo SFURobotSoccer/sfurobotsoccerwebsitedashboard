@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import React, {useState} from "react";
 import zachSpencer from '../../images/peopleimages/zach_spencer.webp';
 import mani from '../../images/peopleimages/mani.webp';
-import adamSpelrem from '../../images/peopleimages/adam_spelrem.webp';
-import thomasChallis from '../../images/peopleimages/thomas_challis.webp';
-import defaultPhoto from '../../images/peopleimages/default_profile.webp';
-import araChristie from '../../images/peopleimages/ara.webp';
-import julianHosseini from '../../images/peopleimages/julian.webp';
-import zacharyGoodman from '../../images/peopleimages/zachary.webp';
+import thomasChallis from "../../images/peopleimages/thomas_challis.webp";
+import defaultPhoto from "../../images/peopleimages/default_profile.webp";
+import jerryHo from "../../images/peopleimages/jerry.webp";
+import araChristie from "../../images/peopleimages/ara.webp";
+import julianHosseini from "../../images/peopleimages/julian.webp";
+import zacharyGoodman from "../../images/peopleimages/zachary.webp";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
 
@@ -27,16 +27,16 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/zachary-k-spencer/",
     },
     {
-      image: adamSpelrem,
-      name: "Adam Spelrem",
-      role: "VP of Finance",
-      linkedIn: "https://www.linkedin.com/in/adam-spelrem-8b5059256/",
-    },
-    {
       image: thomasChallis,
       name: "Thomas Challis",
       role: "VP of Public Relations",
       linkedIn: "https://www.linkedin.com/in/thomas-challis-36460b1ba/",
+    },
+    {
+      image: jerryHo,
+      name: "Jerry Hu",
+      role: "VP of Finance",
+      linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
     },
     {
       image: araChristie,
