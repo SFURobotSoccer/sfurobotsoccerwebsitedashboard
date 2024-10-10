@@ -27,14 +27,6 @@ export const BecomeSponsor = () => {
                 Sponsor Now
                 <FiArrowUpRight strokeWidth={3} />{" "}
               </Link>
-              <Link
-                to={"/sponsors/sponsorspackages"}
-                id="buttonSecondary"
-                className="lg:flex flex items-center gap-2 plus-jakarta-sans-button text-sm px-5 lg:px-6 py-2 tracking-wide w-max mt-3 rounded-md"
-              >
-                More Info
-                <FiArrowUpRight strokeWidth={3} />{" "}
-              </Link>
             </div>
           </div>
         </div>

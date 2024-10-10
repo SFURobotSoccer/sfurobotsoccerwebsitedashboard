@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import harjotSingh from '../../images/peopleimages/harjotSingh.webp';
 import jayKewalramani from "../../images/1710526962488.webp";
 import estherCho from "../../images/peopleimages/esther.webp";
+import aliRzvi from "../../images/peopleimages/Ali Rizvi.webp";
 
 export const Directors = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,12 @@ export const Directors = () => {
       name: "Harjot Singh",
       role: "Director of Web Developent",
       linkedIn: "https://www.linkedin.com/in/harjotsingh7/",
+    },
+    {
+      image: aliRzvi,
+      name: "Ali Rizvi",
+      role: "Director of Accounting",
+      linkedIn: "https://www.linkedin.com/in/ali-rizvi-89a7a1250/",
     },
     {
       image: jayKewalramani,

@@ -8,14 +8,14 @@ import zacharyGoodman from '../images/peopleimages/zachary.webp';
 export const MechanicsTeam = () => {
 
     const openRoles = [
-      {
-        name: "Mechanics Team Member",
-        description:
-          "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
-        linkApply:
-          "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
-        descriptionLink: null,
-      },
+      // {
+      //   name: "Mechanics Team Member",
+      //   description:
+      //     "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
+      //   linkApply:
+      //     "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      //   descriptionLink: null,
+      // },
     ];
 
     const teamMembers = [

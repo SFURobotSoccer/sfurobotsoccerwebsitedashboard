@@ -8,14 +8,14 @@ import julianHosseini from '../images/peopleimages/julian.webp';
 export const ElectronicsTeam = () => {
 
     const openRoles = [
-      {
-        name: "Electonics Developer",
-        description:
-          "As a member of our Electronics Team, your role will consist of designing the electronic components of our robotic system. Your primary responsibilities will revolve around specific changes, updates, and solutions to problems on the current board designs. This will all be done in Altium designer, changing the PCB layout to make up for new components to be added or for entirely additional circuits to be added to solve certain issues.",
-        linkApply:
-          "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
-        descriptionLink: null,
-      },
+      // {
+      //   name: "Electonics Developer",
+      //   description:
+      //     "As a member of our Electronics Team, your role will consist of designing the electronic components of our robotic system. Your primary responsibilities will revolve around specific changes, updates, and solutions to problems on the current board designs. This will all be done in Altium designer, changing the PCB layout to make up for new components to be added or for entirely additional circuits to be added to solve certain issues.",
+      //   linkApply:
+      //     "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+      //   descriptionLink: null,
+      // },
     ];
 
     const teamMembers = [

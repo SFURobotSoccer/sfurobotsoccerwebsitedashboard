@@ -79,7 +79,7 @@ export const ContactForm = () => {
         onClick={onSubmit}
         className="flex w-max items-center gap-2 mt-4 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
       >
-        Submit Application <FiArrowUpRight strokeWidth={3} />{" "}
+        Send Message <FiArrowUpRight strokeWidth={3} />{" "}
       </button>
     </form>
   );

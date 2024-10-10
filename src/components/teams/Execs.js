@@ -11,6 +11,7 @@ import julianHosseini from "../../images/peopleimages/julian.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
+import nathanLeung from "../../images/peopleimages/Nathan Leung.webp";
 
 export const Execs = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -39,9 +40,15 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
     },
     {
+      image: nathanLeung,
+      name: "Nathan Leung",
+      role: "VP of Operations",
+      linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
+    },
+    {
       image: araChristie,
       name: "Ara Christie",
-      role: "VP Admin & Director of Graphic Design",
+      role: "VP Admin",
       linkedIn: "https://www.linkedin.com/in/ara-christie-8a0404261/",
     },
     {
