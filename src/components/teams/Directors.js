@@ -32,12 +32,6 @@ export const Directors = () => {
       linkedIn:
         "https://www.linkedin.com/in/jay-kewalramani-645510259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
-    {
-      image: estherCho,
-      name: "Esther Cho",
-      role: "Director of Internal Relations",
-      linkedIn: "https://www.linkedin.com/in/esther-cho-90597a25a/",
-    },
   ];
 
   return (
