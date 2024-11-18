@@ -2,7 +2,7 @@ import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 import React, {useState} from "react";
 import harjotSingh from '../../images/peopleimages/harjotSingh.webp';
 import jayKewalramani from "../../images/1710526962488.webp";
-import estherCho from "../../images/peopleimages/esther.webp";
+import adamNguyen from "../../images/adamNguyen.jpeg";
 import aliRzvi from "../../images/peopleimages/Ali Rizvi.webp";
 
 export const Directors = () => {
@@ -18,6 +18,12 @@ export const Directors = () => {
       name: "Harjot Singh",
       role: "Director of Web Developent",
       linkedIn: "https://www.linkedin.com/in/harjotsingh7/",
+    },
+    {
+      image: adamNguyen,
+      name: "Adam Nguyen",
+      role: "Director of Graphic Design",
+      linkedIn: "https://www.linkedin.com/in/adam-nguyen-02b522312/",
     },
     {
       image: aliRzvi,
