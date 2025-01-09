@@ -11,6 +11,7 @@ import julianHosseini from "../../images/peopleimages/julian.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
+import hoomehrMangoli from "../../images/peopleimages/hoomehrMangoli.jpg";
 import nathanLeung from "../../images/peopleimages/Nathan Leung.webp";
 
 export const Execs = () => {
@@ -76,7 +77,7 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
     },
     {
-      image: defaultPhoto,
+      image: hoomehrMangoli,
       name: "Hoomehr Mangoli",
       role: "Head of Electronics Engineering",
       linkedIn: "https://www.linkedin.com/in/hoomehr-mangoli-4a2187bb/",
