@@ -6,7 +6,7 @@ export const Join = () => {
     {
       name: "VP of Administration",
       description:
-        "Help track and manage all club expenses, ensuring transparency and accuracy in financial records Help ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds Data entry of club finances into master sheet.",
+        "As the VP of Administration, you will ensure the smooth operation of the team by maintaining organized records, managing club infrastructure such as Discord and Google Drive, and keeping track of meeting minutes. This position is perfect for someone who is detail-oriented, highly organized, and enjoys ensuring that all administrative aspects of the team run seamlessly.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
@@ -15,7 +15,7 @@ export const Join = () => {
     {
       name: "VP of Public Relations",
       description:
-        "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+        "As the VP of Public Relations, you will lead the creation of engaging promotional materials and visual content that align with the team’s goals. From capturing event highlights to designing impactful media, you will ensure the team’s message reaches the right audience. A creative flair and experience with tools like Canva or Photoshop are valuable for this position. ",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
@@ -24,7 +24,7 @@ export const Join = () => {
     {
       name: "VP of Corporate Relations",
       description:
-        "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+        "As the VP of Corporate Relations, you will drive the team’s sponsorship efforts by securing corporate funding, maintaining relationships with sponsors, and preparing impactful presentations to showcase our club’s commitment to excellence and social responsibility. This role is perfect for individuals with strong communication skills, organizational expertise, and a passion for connecting with industry professionals.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
@@ -33,7 +33,7 @@ export const Join = () => {
     {
       name: "Finance Coordinator",
       description:
-        "Develop semester update newsletters to inform major sponsors about the impact of their sponsorship. Create and send follow-up letters to sponsors approximately 3 months after receiving a sponsorship, detailing how funds were spent. Assist in managing internal communications within the club. Aid in event communications to ensure clear and consistent messaging.",
+        "As the Finance Coordinator, you will manage the team’s budget, track expenses, and ensure compliance with funding guidelines. This role is suited for individuals with a strong grasp of financial principles and Excel skills, who are ready to contribute to the team’s financial transparency and success.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
@@ -42,7 +42,7 @@ export const Join = () => {
     {
       name: "Outreach Director",
       description:
-        "Responsible for building and maintaining partnerships with corporate sponsors and industry stakeholders. This role involves securing sponsorships, managing relationships with external partners, and exploring collaboration opportunities.",
+        "As the Outreach Director, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
