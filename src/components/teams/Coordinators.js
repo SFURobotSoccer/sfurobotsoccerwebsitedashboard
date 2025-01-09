@@ -25,36 +25,36 @@ export const Coordinators = () => {
       role: "Outreach Coordinator",
       linkedIn: "https://www.linkedin.com/in/rahim-dharamsi-631862263/",
     },
-    {
-      image: mohnishDevarapalli,
-      name: "Mohnish Devarapalli",
-      role: "Outreach Coordinator",
-      linkedIn: "https://www.linkedin.com/in/mohnish-devarapalli-07741b26b/",
-    },
+    // {
+    //   image: mohnishDevarapalli,
+    //   name: "Mohnish Devarapalli",
+    //   role: "Outreach Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/mohnish-devarapalli-07741b26b/",
+    // },
     {
       image: richKo,
       name: "Rich Ko",
       role: "Outreach Coordinator",
       linkedIn: "https://www.linkedin.com/company/sfurs/",
     },
-    {
-      image: willAlmeida,
-      name: "Will de Almeida",
-      role: "Corporate Relations Coordinator",
-      linkedIn: "https://www.linkedin.com/in/willdalmeida/",
-    },
-    {
-      image: richKo,
-      name: "Job Macatangay",
-      role: "Corporate Relations Coordinator",
-      linkedIn: "https://www.linkedin.com/in/job-macatangay-5a5330275/",
-    },
-    {
-      image: richKo,
-      name: "Teddy Atulya",
-      role: "Corporate Relations Coordinator",
-      linkedIn: "https://www.linkedin.com/company/sfurs/",
-    },
+    // {
+    //   image: willAlmeida,
+    //   name: "Will de Almeida",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/willdalmeida/",
+    // },
+    // {
+    //   image: richKo,
+    //   name: "Job Macatangay",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/job-macatangay-5a5330275/",
+    // },
+    // {
+    //   image: richKo,
+    //   name: "Teddy Atulya",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/company/sfurs/",
+    // },
   ];
 
   return (
