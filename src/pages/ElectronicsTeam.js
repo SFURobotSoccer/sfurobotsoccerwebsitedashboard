@@ -5,6 +5,7 @@ import firmwareDeveloperPDF from '../files/FirmwareDeveloper.pdf';
 import firmwareLeadPDF from '../files/FirmwareTeamLead.pdf';
 import julianHosseini from '../images/peopleimages/julian.webp';
 import zachSpencer from "../images/peopleimages/zach_spencer.webp";
+import defaultPhoto from "../images/peopleimages/default_profile.webp";
 
 export const ElectronicsTeam = () => {
   const openRoles = [
@@ -38,6 +39,12 @@ export const ElectronicsTeam = () => {
       name: "Zach Spencer",
       role: "President/Electronics Team Lead",
       linkedIn: "https://www.linkedin.com/in/zachary-k-spencer/",
+    },
+    {
+      image: defaultPhoto,
+      name: "Hoomehr Mangoli",
+      role: "Head of Electronics Engineering",
+      linkedIn: "https://www.linkedin.com/in/hoomehr-mangoli-4a2187bb/",
     },
   ];
 

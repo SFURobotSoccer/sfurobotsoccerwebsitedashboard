@@ -75,6 +75,18 @@ export const Execs = () => {
       role: "Software Team Co-Leader",
       linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
     },
+    {
+      image: defaultPhoto,
+      name: "Hoomehr Mangoli",
+      role: "Head of Electronics Engineering",
+      linkedIn: "https://www.linkedin.com/in/hoomehr-mangoli-4a2187bb/",
+    },
+    // {
+    //   image: sukhrajPureWal,
+    //   name: "Jimmy...",
+    //   role: "Head of Software Engineering",
+    //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
+    // },
   ];
 
   return (

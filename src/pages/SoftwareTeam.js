@@ -18,6 +18,18 @@ export const SoftwareTeams = () => {
       role: "Software Team Co-Leader",
       linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
     },
+    // {
+    //   image: sukhrajPureWal,
+    //   name: "Jimmy...",
+    //   role: "Head of Software Engineering",
+    //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
+    // },
+    // {
+    //   image: jonathanUng,
+    //   name: "Jonathan Keith Ung",
+    //   role: "Software Team Co-Leader",
+    //   linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
+    // },
   ];
 
   const openRoles = [
