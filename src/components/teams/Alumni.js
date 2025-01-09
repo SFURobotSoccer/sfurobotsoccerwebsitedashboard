@@ -12,6 +12,7 @@ import aidanGerrebos from '../../images/peopleimages/aidan.webp';
 import juddFoster from '../../images/peopleimages/judd.webp';
 import martinKeivanloo from '../../images/peopleimages/martin.webp';
 import adamSpelrem from "../../images/peopleimages/adam_spelrem.webp";
+import matthewdoSantosZounon from "../../images/matthew.webp";
 
 export const Alumni = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -92,6 +93,12 @@ export const Alumni = () => {
       name: "Martin Keivanloo",
       role: "Director of Outreach",
       linkedIn: null,
+    },
+    {
+      image: matthewdoSantosZounon,
+      name: "Matthew do Santos-Zounon",
+      role: "Software Team Lead",
+      linkedIn: "https://www.linkedin.com/in/zach-spencer",
     },
   ];
 
