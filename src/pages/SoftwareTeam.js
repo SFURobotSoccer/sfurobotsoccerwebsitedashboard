@@ -36,7 +36,7 @@ export const SoftwareTeams = () => {
     {
       name: "Software Developer",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As a Software Developer, you will contribute to the team by implementing AI and networking components in C++. This role involves working in a collaborative environment, creating documentation, and applying your problem-solving skills to enhance our software. Proficiency in C++ and Python is essential.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
@@ -88,7 +88,7 @@ export const SoftwareTeams = () => {
           to have the opportunity to contribute to the seamless advancement of
           our software development.
         </p>
-        <div className="flex gap-10 mt-2 lg:mt-2 lg:gap-4 flex-col">
+        <div className="flex gap-10 mt-2 lg:mt-4 lg:gap-4 flex-col">
           {openRoles.length !== 0 ? (
             openRoles.map((role, index) => (
               <>

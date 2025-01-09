@@ -13,7 +13,7 @@ export const ElectronicsTeam = () => {
     {
       name: "Electronics Co-Lead",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As the Electronics Co-Lead, you will oversee the design and development of PCBs and other electronic components, tackling challenging technical issues. This role is ideal for candidates experienced in electronics development and PCB design, with a passion for innovation.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
@@ -21,7 +21,7 @@ export const ElectronicsTeam = () => {
     {
       name: "Electronics Engineer",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As an Electronics Engineer, you will design, modify and assemble PCBs, troubleshoot electronic components, and collaborate with team members to integrate new technologies. This role is great for those experienced in soldering and circuit design.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,

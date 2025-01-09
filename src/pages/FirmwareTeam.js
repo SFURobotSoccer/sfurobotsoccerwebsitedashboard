@@ -10,7 +10,7 @@ export const FirmwareTeams = () => {
     {
       name: "Firmware Co-Lead",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As the Firmware Co-Lead, you will lead the firmware team and work on tasks such as robot integration, testing, and strategic codebase planning. This position is ideal for those with a deep understanding of embedded systems and strong leadership skills.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
@@ -18,7 +18,7 @@ export const FirmwareTeams = () => {
     {
       name: "Head Firmware Engineer",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As the Head of Firmware, you will lead the firmware team, managing complex tasks such as robot integration, firmware-hardware testing, and maintaining a robust codebase. This role requires a deep understanding of embedded systems, leadership skills, and a commitment to fostering innovation within the firmware team.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
@@ -26,7 +26,7 @@ export const FirmwareTeams = () => {
     {
       name: "Firmware Engineer",
       description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+        "As a Firmware Engineer, you will design and implement firmware for our robots, ensuring the smooth operation of components. If you’re passionate about embedded systems and proficient in C programming, this role is a great fit for you.",
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
