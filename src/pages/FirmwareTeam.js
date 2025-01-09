@@ -8,7 +8,7 @@ import firmwareLeadPDF from "../files/FirmwareTeamLead.pdf";
 export const FirmwareTeams = () => {
   const openRoles = [
     {
-      name: "Head of Firmware Team",
+      name: "Firmware Co-Lead",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
@@ -16,7 +16,15 @@ export const FirmwareTeams = () => {
       descriptionLink: null,
     },
     {
-      name: "Firmware Team Engineer",
+      name: "Head Firmware Engineer",
+      description:
+        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      descriptionLink: null,
+    },
+    {
+      name: "Firmware Engineer",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
@@ -65,6 +73,61 @@ export const FirmwareTeams = () => {
           <div className="w-max  h-max mt-2 text-xs font-red-200 rounded-md plus-jakarta-sans-body flex justify-center items-center">
             Qt5
           </div>
+        </div>
+
+        <h3 className="plus-jakarta-sans-heading text-2xl mt-4 mb-2">
+          Open Roles
+        </h3>
+        <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6">
+          Apply for a position on our Firmware Team! This team focuses on
+          implementing the firmware for the electronic circuit boards,
+          performing testing of firmware code on the robots and robotic
+          components and writing high quality documentation for your work
+        </p>
+        <div className="flex gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
+          {openRoles.length !== 0 ? (
+            openRoles.map((role, index) => (
+              <>
+                <div key={index} className="flex flex-col gap-3">
+                  <div className="flex flex-col lg:w-10/12">
+                    <h2 className="plus-jakarta-sans-button text-xl">
+                      {role.name}
+                    </h2>
+                    <p className="plus-jakarta-sans-body text-sm tracking-wide leading-6 text-black mt-1 mb-2">
+                      {role.description}
+                    </p>
+                  </div>
+                  <div className="flex flex-row gap-4">
+                    <a href={role.linkApply} target="_blank">
+                      <button
+                        id="buttonPrimary"
+                        className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
+                      >
+                        Apply Now
+                        <FiArrowUpRight strokeWidth={3} />{" "}
+                      </button>
+                    </a>
+                    {role.descriptionLink != null && (
+                      <a href={role.descriptionLink} target="_blank">
+                        <button
+                          id="buttonSecondary"
+                          className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
+                        >
+                          Role Description
+                          <FiFileText strokeWidth={3} />{" "}
+                        </button>
+                      </a>
+                    )}
+                  </div>
+                </div>
+                <div className="lg:w-10/12 line bg-black bg-opacity-100 lg:mt-4 lg:mb-4"></div>
+              </>
+            ))
+          ) : (
+            <h2 className="plus-jakarta-sans-body text-black text-lg lg:leading-6">
+              No open roles.
+            </h2>
+          )}
         </div>
 
         {teamMembers.length !== 0 ? (
@@ -117,61 +180,7 @@ export const FirmwareTeams = () => {
           code reviews, documentation and meetings.
         </p>
 
-        <h3 className="plus-jakarta-sans-heading text-2xl mt-10 mb-2">
-          Open Roles
-        </h3>
-        <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6">
-          Apply for a position on our Firmware Team! This team focuses on
-          implementing the firmware for the electronic circuit boards,
-          performing testing of firmware code on the robots and robotic
-          components and writing high quality documentation for your work
-        </p>
         {/* <p className="plus-jakarta-sans-body text-lg">There are currently no open roles for the electronics team.</p> */}
-        <div className="flex gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
-          {openRoles.length !== 0 ? (
-            openRoles.map((role, index) => (
-              <>
-                <div key={index} className="flex flex-col gap-3">
-                  <div className="flex flex-col lg:w-10/12">
-                    <h2 className="plus-jakarta-sans-button text-xl">
-                      {role.name}
-                    </h2>
-                    <p className="plus-jakarta-sans-body text-sm tracking-wide leading-6 text-black mt-1 mb-2">
-                      {role.description}
-                    </p>
-                  </div>
-                  <div className="flex flex-row gap-4">
-                    <a href={role.linkApply} target="_blank">
-                      <button
-                        id="buttonPrimary"
-                        className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
-                      >
-                        Apply Now
-                        <FiArrowUpRight strokeWidth={3} />{" "}
-                      </button>
-                    </a>
-                    {role.descriptionLink != null && (
-                      <a href={role.descriptionLink} target="_blank">
-                        <button
-                          id="buttonSecondary"
-                          className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
-                        >
-                          Role Description
-                          <FiFileText strokeWidth={3} />{" "}
-                        </button>
-                      </a>
-                    )}
-                  </div>
-                </div>
-                <div className="lg:w-10/12 line bg-black bg-opacity-100 lg:mt-4 lg:mb-4"></div>
-              </>
-            ))
-          ) : (
-            <h2 className="plus-jakarta-sans-body text-black text-lg lg:leading-6">
-              No open roles.
-            </h2>
-          )}
-        </div>
       </div>
       <Footer />
     </>

@@ -1,6 +1,8 @@
 import { FiArrowUpRight, FiFileText } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 export const OpenRoles = () => {
+  const navigate = useNavigate();
   const openRoles = [
     {
       name: "VP of Administration",
@@ -9,6 +11,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "VP of Public Relations",
@@ -17,6 +20,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "VP of Corporate Relations",
@@ -25,6 +29,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "Finance Coordinator",
@@ -33,6 +38,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "Outreach Director",
@@ -41,6 +47,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "Mechanics Co-Lead",
@@ -49,6 +56,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/mechanics",
     },
     {
       name: "Electonics Co-Lead",
@@ -57,6 +65,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/electronics",
     },
     {
       name: "Firmware Co-Lead",
@@ -65,6 +74,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/firmware",
     },
     {
       name: "Head Mechanics Engineer",
@@ -73,6 +83,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/mechanics",
     },
     {
       name: "Head Firmware Engineer",
@@ -81,6 +92,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/firmware",
     },
     {
       name: "Mechanics Engineer",
@@ -89,6 +101,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/mechanics",
     },
     {
       name: "Electronics Engineer",
@@ -97,6 +110,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/electronics",
     },
     {
       name: "Firmware Engineer",
@@ -105,6 +119,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/firmware",
     },
     {
       name: "Software Developer",
@@ -113,6 +128,7 @@ export const OpenRoles = () => {
       linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/teams/software",
     },
   ];
 
@@ -132,23 +148,24 @@ export const OpenRoles = () => {
             {openRoles.length !== 0 ? (
               openRoles.map((role, index) => (
                 <>
-                  <div
+                  <button
                     key={index}
-                    className="flex bg-black bg-opacity-5 lg:hover:cursor-default transition duration-300 ease-in-out px-8 py-6 rounded-lg flex-col gap-4"
+                    onClick={() => navigate(`${role.goTo}`)}
+                    className="flex bg-black bg-opacity-5 text-start lg:hover:cursor-pointer lg:hover:bg-red-100 transition duration-300 ease-in-out px-8 py-6 rounded-lg flex-col gap-4"
                   >
                     <div className="flex flex-col lg:w-10/12">
                       <h2 className="plus-jakarta-sans-button text-xl">
                         {role.name}
                       </h2>
                     </div>
-                    <button
+                    {/* <button
                       id="buttonPrimary"
                       onClick={() => window.open(role.linkApply, "_blank")}
                       className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
                     >
                       Apply Now
-                    </button>
-                  </div>
+                    </button> */}
+                  </button>
                 </>
               ))
             ) : (

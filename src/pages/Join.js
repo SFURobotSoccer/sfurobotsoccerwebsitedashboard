@@ -8,16 +8,45 @@ export const Join = () => {
       description:
         "Help track and manage all club expenses, ensuring transparency and accuracy in financial records Help ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds Data entry of club finances into master sheet.",
       linkApply:
-        "https://docs.google.com/forms/d/1amHEgnKYtp6_YIL1SKOG5hw6pCnMEJ5h0yinSNteRV4/edit?usp=forms_home&ths=true",
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
       descriptionLink: null,
+      goTo: "/join",
     },
     {
       name: "VP of Public Relations",
       description:
         "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
       linkApply:
-        "https://docs.google.com/forms/d/1amHEgnKYtp6_YIL1SKOG5hw6pCnMEJ5h0yinSNteRV4/edit?usp=forms_home&ths=true",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
       descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "VP of Corporate Relations",
+      description:
+        "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Finance Coordinator",
+      description:
+        "Develop semester update newsletters to inform major sponsors about the impact of their sponsorship. Create and send follow-up letters to sponsors approximately 3 months after receiving a sponsorship, detailing how funds were spent. Assist in managing internal communications within the club. Aid in event communications to ensure clear and consistent messaging.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Outreach Director",
+      description:
+        "Responsible for building and maintaining partnerships with corporate sponsors and industry stakeholders. This role involves securing sponsorships, managing relationships with external partners, and exploring collaboration opportunities.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
     },
   ];
 

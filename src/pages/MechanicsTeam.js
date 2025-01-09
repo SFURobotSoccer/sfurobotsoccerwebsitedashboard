@@ -9,7 +9,7 @@ export const MechanicsTeam = () => {
 
     const openRoles = [
       {
-        name: "Head of Mechanics Team",
+        name: "Mechanics Co-Lead",
         description:
           "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
         linkApply:
@@ -17,7 +17,23 @@ export const MechanicsTeam = () => {
         descriptionLink: null,
       },
       {
-        name: "Mechanics Team Engineer",
+        name: "Head Mechanics Engineer",
+        description:
+          "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
+        linkApply:
+          "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+        descriptionLink: null,
+      },
+      {
+        name: "Head Mechanics Engineer",
+        description:
+          "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
+        linkApply:
+          "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+        descriptionLink: null,
+      },
+      {
+        name: "Mechanics Engineer",
         description:
           "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
         linkApply:
@@ -53,57 +69,7 @@ export const MechanicsTeam = () => {
             </div>
           </div>
 
-          {teamMembers.length !== 0 ? (
-            <div className="mt-4 mb-2 lg:flex-row lg:gap-6 flex-col lg:mt-10 flex gap-6">
-              {teamMembers.map((member, index) => (
-                <div
-                  key={index}
-                  className="px-0 py-0 flex rounded-xl flex-col justify-center items-center w-52"
-                >
-                  <div className="w-24 h-24 overflow-hidden rounded-full mb-4">
-                    <img src={member.image}></img>
-                  </div>
-                  <h4 className="plus-jakarta-sans-heading text-md text-center mb-1 flex flex-row items-center gap-2">
-                    {member.name}
-                  </h4>
-                  <p className="plus-jakarta-sans-body text-center text-xs w-2/3">
-                    {member.role}
-                  </p>
-                  <p className="icons text-3xl text-center">
-                    <a
-                      href={member.linkedIn}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Ì
-                    </a>
-                  </p>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div></div>
-          )}
-
-          <h3 className="plus-jakarta-sans-heading text-2xl mt-6 mb-2">
-            What Is Their Role
-          </h3>
-          <p className="plus-jakarta-sans-body text-sm w-11/12 leading-6">
-            The Mechanics team gives shape and character to our team of robots
-            and is a great way to get started in the club. Members are
-            introduced to the basics of CAD and work on designing components
-            such as base-plates, motor mounts and kicker systems, usually under
-            the supervision of more senior members.<br></br>
-            <br></br>
-            During this process, the mechanics team focuses on creating an
-            efficient design workflow and generating documentation so that
-            future team members can learn about how our robots have evolved over
-            time. Mechanics members primarily use SolidWorks to familiarize
-            themselves with the basics of mechanical design and experience
-            teamwork in a production environment.
-          </p>
-
-          <h3 className="plus-jakarta-sans-heading text-2xl mt-10 mb-2">
+          <h3 className="plus-jakarta-sans-heading text-2xl mt-4 mb-2">
             Open Roles
           </h3>
           <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 lg:leading-6">
@@ -120,7 +86,7 @@ export const MechanicsTeam = () => {
             our robotic systems!
           </p>
           {/* <p className="plus-jakarta-sans-body text-lg">There are currently no open roles for the electronics team.</p> */}
-          <div className="flex gap-10 mt-2 lg:mt-10 lg:mt-0 lg:gap-4 flex-col">
+          <div className="flex gap-10 mt-2 lg:mt-0 lg:gap-4 flex-col">
             {openRoles.length !== 0 ? (
               openRoles.map((role, index) => (
                 <>
@@ -164,6 +130,56 @@ export const MechanicsTeam = () => {
                 No open roles.
               </h2>
             )}
+
+            {teamMembers.length !== 0 ? (
+              <div className="mt-4 mb-2 lg:flex-row lg:gap-6 flex-col lg:mt-10 flex gap-6">
+                {teamMembers.map((member, index) => (
+                  <div
+                    key={index}
+                    className="px-0 py-0 flex rounded-xl flex-col justify-center items-center w-52"
+                  >
+                    <div className="w-24 h-24 overflow-hidden rounded-full mb-4">
+                      <img src={member.image}></img>
+                    </div>
+                    <h4 className="plus-jakarta-sans-heading text-md text-center mb-1 flex flex-row items-center gap-2">
+                      {member.name}
+                    </h4>
+                    <p className="plus-jakarta-sans-body text-center text-xs w-2/3">
+                      {member.role}
+                    </p>
+                    <p className="icons text-3xl text-center">
+                      <a
+                        href={member.linkedIn}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Ì
+                      </a>
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div></div>
+            )}
+
+            <h3 className="plus-jakarta-sans-heading text-2xl mt-6 mb-2">
+              What Is Their Role
+            </h3>
+            <p className="plus-jakarta-sans-body text-sm w-11/12 leading-6">
+              The Mechanics team gives shape and character to our team of robots
+              and is a great way to get started in the club. Members are
+              introduced to the basics of CAD and work on designing components
+              such as base-plates, motor mounts and kicker systems, usually
+              under the supervision of more senior members.<br></br>
+              <br></br>
+              During this process, the mechanics team focuses on creating an
+              efficient design workflow and generating documentation so that
+              future team members can learn about how our robots have evolved
+              over time. Mechanics members primarily use SolidWorks to
+              familiarize themselves with the basics of mechanical design and
+              experience teamwork in a production environment.
+            </p>
           </div>
         </div>
         <Footer />

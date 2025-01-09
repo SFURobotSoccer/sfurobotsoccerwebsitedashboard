@@ -64,57 +64,7 @@ export const SoftwareTeams = () => {
           </div>
         </div>
 
-        {teamMembers.length !== 0 ? (
-          <div className="mt-4 mb-2 lg:flex-row lg:gap-6 flex-row lg:mt-10 flex lg:gap-6 ">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="px-0 py-0 flex rounded-xl flex-col justify-center items-center w-52"
-              >
-                <div className="w-24 h-24 overflow-hidden rounded-full mb-4">
-                  <img src={member.image}></img>
-                </div>
-                <h4 className="plus-jakarta-sans-heading text-md text-center mb-1 flex flex-row items-center gap-2">
-                  {member.name}
-                </h4>
-                <p className="plus-jakarta-sans-body text-center text-xs w-2/3">
-                  {member.role}
-                </p>
-                <p className="icons text-3xl text-center">
-                  <a
-                    href={member.linkedIn}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ì
-                  </a>
-                </p>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div></div>
-        )}
-
-        <h3 className="plus-jakarta-sans-heading text-2xl mt-6 mb-2">
-          What Is Their Role
-        </h3>
-        <p className="plus-jakarta-sans-body text-sm w-11/12 leading-6">
-          At the software team our members collaborate together to develop the
-          core and support elements of our software system. As speed gives us a
-          competitive advantage we use a C++ tech stack to develop our AI and
-          robotic control algorithms as well as our interface.<br></br>
-          <br></br>
-          We are looking for motivated students who are interested in applying
-          their knowledge across and beyond the curriculum into practice. We are
-          currently working on developing our robotic command and control
-          systems, our data systems and improving our GUI among other tasks. In
-          our team we hope you not only gain technical experience but also
-          experience in collaborating with your peers through pair programming,
-          code reviews, documentation and meetings.
-        </p>
-
-        <h3 className="plus-jakarta-sans-heading text-2xl mt-10 mb-2">
+        <h3 className="plus-jakarta-sans-heading text-2xl mt-4 mb-2">
           Open Roles
         </h3>
         <p className="plus-jakarta-sans-body text-black w-11/12 text-md lg:mb-0 text-opacity-40 leading-6">
@@ -126,7 +76,7 @@ export const SoftwareTeams = () => {
           to have the opportunity to contribute to the seamless advancement of
           our software development.
         </p>
-        <div className="flex gap-10 mt-2 lg:mt-10 lg:mt-0 lg:gap-4 flex-col">
+        <div className="flex gap-10 mt-2 lg:mt-2 lg:gap-4 flex-col">
           {openRoles.length !== 0 ? (
             openRoles.map((role, index) => (
               <>
@@ -170,6 +120,56 @@ export const SoftwareTeams = () => {
               No open roles.
             </h2>
           )}
+
+          {teamMembers.length !== 0 ? (
+            <div className="mt-4 mb-2 lg:flex-row lg:gap-6 flex-row lg:mt-10 flex lg:gap-6 ">
+              {teamMembers.map((member, index) => (
+                <div
+                  key={index}
+                  className="px-0 py-0 flex rounded-xl flex-col justify-center items-center w-52"
+                >
+                  <div className="w-24 h-24 overflow-hidden rounded-full mb-4">
+                    <img src={member.image}></img>
+                  </div>
+                  <h4 className="plus-jakarta-sans-heading text-md text-center mb-1 flex flex-row items-center gap-2">
+                    {member.name}
+                  </h4>
+                  <p className="plus-jakarta-sans-body text-center text-xs w-2/3">
+                    {member.role}
+                  </p>
+                  <p className="icons text-3xl text-center">
+                    <a
+                      href={member.linkedIn}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ì
+                    </a>
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div></div>
+          )}
+
+          <h3 className="plus-jakarta-sans-heading text-2xl mt-6 mb-2">
+            What Is Their Role
+          </h3>
+          <p className="plus-jakarta-sans-body text-sm w-11/12 leading-6">
+            At the software team our members collaborate together to develop the
+            core and support elements of our software system. As speed gives us
+            a competitive advantage we use a C++ tech stack to develop our AI
+            and robotic control algorithms as well as our interface.<br></br>
+            <br></br>
+            We are looking for motivated students who are interested in applying
+            their knowledge across and beyond the curriculum into practice. We
+            are currently working on developing our robotic command and control
+            systems, our data systems and improving our GUI among other tasks.
+            In our team we hope you not only gain technical experience but also
+            experience in collaborating with your peers through pair
+            programming, code reviews, documentation and meetings.
+          </p>
         </div>
       </div>
       <Footer />
