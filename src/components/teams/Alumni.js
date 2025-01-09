@@ -98,7 +98,7 @@ export const Alumni = () => {
       image: matthewdoSantosZounon,
       name: "Matthew do Santos-Zounon",
       role: "Software Team Lead",
-      linkedIn: "https://www.linkedin.com/in/zach-spencer",
+      linkedIn: "https://www.linkedin.com/in/mdsz/",
     },
   ];
 
