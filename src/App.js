@@ -22,6 +22,7 @@ import { BecomeSponsor } from "./pages/BecomeSponsor";
 import { SponsorsLearnMore } from "./pages/SponsorLearnMore";
 import ScrollToTop from "./components/ScrollToTop";
 import { Join } from "./pages/Join";
+import { FirstYearKickOffProgram } from "./pages/FirstYearKickOffProgram";
 
 function App() {
   return (
@@ -43,6 +44,8 @@ function App() {
           <Route path="/teams/firmware" element={<FirmwareTeams />} />
           <Route path="/teams/mechanics" element={<MechanicsTeam />} />
           <Route path="/teams/electronics" element={<ElectronicsTeam />} />
+          <Route path="/teams/electronics" element={<ElectronicsTeam />} />
+          <Route path="/kickoff" element={<FirstYearKickOffProgram />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/sponsors/becomesponsor" element={<BecomeSponsor />} />
           <Route

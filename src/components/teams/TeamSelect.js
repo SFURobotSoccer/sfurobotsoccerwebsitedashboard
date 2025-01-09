@@ -1,3 +1,4 @@
+import { FaRegFutbol } from "react-icons/fa";
 import {
   FiArrowUpRight,
   FiBox,
@@ -41,29 +42,35 @@ export const TeamSelect = () => {
       description: "Bring ideas to life",
       linkTo: "/join",
     },
+    {
+      team: "Kick Off Program",
+      icon: <FaRegFutbol size={14} strokeWidth={2} />,
+      description: "Kick Off into RS",
+      linkTo: "/kickoff",
+    },
   ];
 
   return (
-    <div className="w-full h-max flex flex-col lg:flex-row gap-4 lg:gap-14 mt-4 lg:mt-6 flex-row">
+    <div className="w-11/12 h-max flex flex-wrap gap-4 lg:gap-14 mt-4 lg:mt-6 flex-col lg:flex-row">
       {teams.map((team, index) => (
         <Link
           key={index}
           to={`${team.linkTo}`}
-          className="teamSelect px-4 py-4 lg:py-3 text-left flex rounded-xl flex-col lg:w-1/5 "
+          className="teamSelect px-4 py-4 lg:py-3 text-left flex rounded-xl flex-col lg:w-1/5"
         >
-          <h4 className="plus-jakarta-sans-heading text-xl text-black mb-1 flex flex-row items-center gap-2">
-            {team.icon}
+          <h4 className="plus-jakarta-sans-heading text-xl text-black mb-1 flex flex-row items-start gap-2">
+            <p className="mt-2">{team.icon}</p>
             {team.team}
           </h4>
-          <p className="plus-jakarta-sans-body text-sm mb-3 text-black">
+          <p className="plus-jakarta-sans-body text-sm mb-3 text-black ml-5 pl-0.5">
             {team.description}
           </p>
           <div
             id="buttonPrimary"
-            className="flex w-max items-center px-4 gap-2 plus-jakarta-sans-button text-xs px-0 py-2 tracking-wide rounded-md"
+            className="flex w-max items-center px-4 gap-2 plus-jakarta-sans-button text-xs ml-5 py-2 tracking-wide rounded-md"
           >
             Learn more
-            <FiArrowUpRight strokeWidth={3} />{" "}
+            <FiArrowUpRight strokeWidth={3} />
           </div>
         </Link>
       ))}
