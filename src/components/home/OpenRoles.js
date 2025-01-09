@@ -19,6 +19,14 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
+      name: "VP of Corporate Relations",
+      description:
+        "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+    },
+    {
       name: "Finance Coordinator",
       description:
         "Develop semester update newsletters to inform major sponsors about the impact of their sponsorship. Create and send follow-up letters to sponsors approximately 3 months after receiving a sponsorship, detailing how funds were spent. Assist in managing internal communications within the club. Aid in event communications to ensure clear and consistent messaging.",
@@ -27,7 +35,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Outreach Coordinator",
+      name: "Outreach Director",
       description:
         "Responsible for building and maintaining partnerships with corporate sponsors and industry stakeholders. This role involves securing sponsorships, managing relationships with external partners, and exploring collaboration opportunities.",
       linkApply:
@@ -35,7 +43,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Mechanics Team Lead",
+      name: "Mechanics Co-Lead",
       description:
         "Creating promotional material that aligns with SFU Robotic Soccer’s goals and values Ability to work with a team to create high quality content in time sensitive high pressure environments Support in designing visual content for various projects Attending events and key design team meetings to capture media content to facilitate the creation of meaningful promotional content The Director of Graphic Design is expected to commit 6-8 hours each week The Director of Graphic Design must attend weekly meetings with the team, and attend all organisation-wide meetings Experience with Visual design software (Figma, Canva, Photoshop, After effect, etc.) Proficiency in using camera equipment Prepare and facilitate pitch meetings to corporate prospects and industry professionals to secure sponsorships",
       linkApply:
@@ -43,7 +51,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Electonics Team Lead",
+      name: "Electonics Co-Lead",
       description:
         "As a member of our Electronics Team, your role will consist of designing the electronic components of our robotic system. Your primary responsibilities will revolve around specific changes, updates, and solutions to problems on the current board designs. This will all be done in Altium designer, changing the PCB layout to make up for new components to be added or for entirely additional circuits to be added to solve certain issues.",
       linkApply:
@@ -51,7 +59,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Firmware Team Lead",
+      name: "Firmware Co-Lead",
       description:
         "As a Firmware Developer on the firmware team, you will be consistently working on the firmware of the circuit boards that power our robots, developing and optimising the code that enables our robots to compete at their best. In other words, firmware takes the hardware and allows our circuitry to interact on the conditions we desire. The firmware coding will be done in the C language and will be primarily focused on changing the code of the actual robot, to allow the entire robot to function to its desired capabilities. For this role, we are seeking individuals who are passionate and committed to firmware programming, and problem-solving.",
       linkApply:
@@ -59,7 +67,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Head of Mechanics Team",
+      name: "Head Mechanics Engineer",
       description:
         "As a Mechanics Team Member on the mechanics team, you will be contributing to the various mechanical systems of our fleet of autonomous soccer-playing robots. These mechanical elements include but are not limited to the chassis, wheels, kicker, PCB mounts, and motors. The main software used for computer modelling is Solidworks. Additionally, you will have the opportunity to help contribute with the manufacturing of the developed mechanical elements.",
       linkApply:
@@ -67,7 +75,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Head of Electronics Team",
+      name: "Head Firmware Engineer",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
@@ -75,7 +83,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Head of Firmware Team",
+      name: "Mechanics Engineer",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
@@ -83,7 +91,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Mechanics Team Engineer",
+      name: "Electronics Engineer",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
@@ -91,15 +99,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
     },
     {
-      name: "Electronics Team Engineer",
-      description:
-        "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
-    {
-      name: "Firmware Team Engineer",
+      name: "Firmware Engineer",
       description:
         "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
       linkApply:
