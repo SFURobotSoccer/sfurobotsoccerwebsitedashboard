@@ -8,7 +8,7 @@ export const Join = () => {
       description:
         "Help track and manage all club expenses, ensuring transparency and accuracy in financial records Help ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds Data entry of club finances into master sheet.",
       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+        "https://docs.google.com/forms/d/1amHEgnKYtp6_YIL1SKOG5hw6pCnMEJ5h0yinSNteRV4/edit?usp=forms_home&ths=true",
       descriptionLink: null,
     },
     {
@@ -16,7 +16,7 @@ export const Join = () => {
       description:
         "Present financial plans and proposals to potential sponsors to secure funding for club initiatives. Track and manage all club expenses, ensuring transparency and accuracy in financial records. Ensure compliance with SFSS and FAS funding guidelines to properly allocate and spend funds. Develop and oversee the club's budget, adjusting for changes in revenue and expenses throughout the year.",
       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScQbtJXuMKvOpBZ-aJ8k2db6INAc6iK9aw7l8RwxHJWlTonEQ/viewform",
+        "https://docs.google.com/forms/d/1amHEgnKYtp6_YIL1SKOG5hw6pCnMEJ5h0yinSNteRV4/edit?usp=forms_home&ths=true",
       descriptionLink: null,
     },
   ];
