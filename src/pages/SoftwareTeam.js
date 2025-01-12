@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer"
 import { FiArrowUpRight, FiFileText } from "react-icons/fi"
 import sukhrajPureWal from "../images/sukhrajPurewal.webp";
 import jonathanUng from "../images/jonathanUng.webp";
+import defaultPhoto from "../images/peopleimages/default_profile.webp";
 
 export const SoftwareTeams = () => {
   const teamMembers = [
@@ -18,12 +19,12 @@ export const SoftwareTeams = () => {
       role: "Software Team Co-Leader",
       linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
     },
-    // {
-    //   image: sukhrajPureWal,
-    //   name: "Jimmy...",
-    //   role: "Head of Software Engineering",
-    //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
-    // },
+    {
+      image: defaultPhoto,
+      name: "Jimmy Zhou",
+      role: "Head of Software Engineering",
+      linkedIn: "https://www.linkedin.com/in/jimmy-z-3849b8224/",
+    },
     // {
     //   image: jonathanUng,
     //   name: "Jonathan Keith Ung",
@@ -187,4 +188,4 @@ export const SoftwareTeams = () => {
       <Footer />
     </>
   );
-}
+};
