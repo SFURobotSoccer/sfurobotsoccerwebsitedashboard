@@ -34,14 +34,14 @@ export const SoftwareTeams = () => {
   ];
 
   const openRoles = [
-    {
-      name: "Software Developer",
-      description:
-        "As a Software Developer, you will contribute to the team by implementing AI and networking components in C++. This role involves working in a collaborative environment, creating documentation, and applying your problem-solving skills to enhance our software. Proficiency in C++ and Python is essential.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
+    // {
+    //   name: "Software Developer",
+    //   description:
+    //     "As a Software Developer, you will contribute to the team by implementing AI and networking components in C++. This role involves working in a collaborative environment, creating documentation, and applying your problem-solving skills to enhance our software. Proficiency in C++ and Python is essential.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+    //   descriptionLink: null,
+    // },
   ];
 
   return (
