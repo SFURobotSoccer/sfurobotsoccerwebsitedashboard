@@ -7,30 +7,30 @@ import firmwareLeadPDF from "../files/FirmwareTeamLead.pdf";
 
 export const FirmwareTeams = () => {
   const openRoles = [
-    {
-      name: "Firmware Co-Lead",
-      description:
-        "As the Firmware Co-Lead, you will lead the firmware team and work on tasks such as robot integration, testing, and strategic codebase planning. This position is ideal for those with a deep understanding of embedded systems and strong leadership skills.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
-    {
-      name: "Head Firmware Engineer",
-      description:
-        "As the Head of Firmware, you will lead the firmware team, managing complex tasks such as robot integration, firmware-hardware testing, and maintaining a robust codebase. This role requires a deep understanding of embedded systems, leadership skills, and a commitment to fostering innovation within the firmware team.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
-    {
-      name: "Firmware Engineer",
-      description:
-        "As a Firmware Engineer, you will design and implement firmware for our robots, ensuring the smooth operation of components. If you’re passionate about embedded systems and proficient in C programming, this role is a great fit for you.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
+    // {
+    //   name: "Firmware Co-Lead",
+    //   description:
+    //     "As the Firmware Co-Lead, you will lead the firmware team and work on tasks such as robot integration, testing, and strategic codebase planning. This position is ideal for those with a deep understanding of embedded systems and strong leadership skills.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+    //   descriptionLink: null,
+    // },
+    // {
+    //   name: "Head Firmware Engineer",
+    //   description:
+    //     "As the Head of Firmware, you will lead the firmware team, managing complex tasks such as robot integration, firmware-hardware testing, and maintaining a robust codebase. This role requires a deep understanding of embedded systems, leadership skills, and a commitment to fostering innovation within the firmware team.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+    //   descriptionLink: null,
+    // },
+    // {
+    //   name: "Firmware Engineer",
+    //   description:
+    //     "As a Firmware Engineer, you will design and implement firmware for our robots, ensuring the smooth operation of components. If you’re passionate about embedded systems and proficient in C programming, this role is a great fit for you.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+    //   descriptionLink: null,
+    // },
   ];
 
   const teamMembers = [
