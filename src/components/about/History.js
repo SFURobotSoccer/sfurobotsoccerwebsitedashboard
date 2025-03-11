@@ -13,7 +13,7 @@ export const History = () => {
     {
       date: "December 2017",
       description:
-        "The club’s leadership was transferred to a new team: Arvin Amini, George Lertzman Lepofsky, Amitis Haghdadi and Jordan Lei, with Arvin becoming club president. The new management team shifted the club’s purpose and brand, starting the mission of building a team for RoboCup. The club adopted the SFU Robot Soccer branding and the legacy team name Skynet. Despite the club changes, the core vision of Vex remained: to be an open space to teach students about robotics.",
+        "The club's leadership was transferred to a new team: Arvin Amini, George Lertzman Lepofsky, Amitis Haghdadi and Jordan Lei, with Arvin becoming club president. The new management team shifted the club's purpose and brand, starting the mission of building a team for RoboCup. The club adopted the SFU Robot Soccer branding and the legacy team name Skynet. Despite the club changes, the core vision of Vex remained: to be an open space to teach students about robotics.",
     },
     {
       date: "February 2018",
@@ -23,7 +23,7 @@ export const History = () => {
     {
       date: "2018-2023",
       description:
-        "The main development period of the club’s robots. The first prototype was completed in 2018. Over a few years, each aspect of the prototype was redesigned and refined multiple times over.",
+        "The main development period of the club's robots. The first prototype was completed in 2018. Over a few years, each aspect of the prototype was redesigned and refined multiple times over.",
     },
     {
       date: "April 2019",
@@ -55,9 +55,52 @@ export const History = () => {
         "Zachary Spencer took over as club president in 2023. The team name of Bandits FC and a new club logo were adopted.",
     },
     {
-      date: "Present",
+      date: "November 2023",
       description:
         "Going into late 2023, the club is finalizing the robot designs and preparing for mass production. The club plans to complete the robots in time to qualify for RoboCup 2024.",
+    },
+    {
+      date: "January 2025",
+      description:
+        "First robot electrically and mechanically finished. Base station able to communicate simple commands to robot. Manual control from software through to robot. Visual input from camera tested. Sponsorship presentation completed.",
+    },
+    {
+      date: "February 2025",
+      description:
+        "Motors, Kicker, Chipper, and RF communication working on robot. Base station working. 3x3 field setup ready. SSL vision ready to use with our camera system. Full system test completed.",
+    },
+    {
+      date: "February 2025",
+      description:
+        "Full robot movement implemented including PID, different levels of kick, etc. Full software control of robot. Game state reflex finished. A* path planning navigating confliction. Robot fully verified and all orders placed for fleet.",
+    },
+    {
+      date: "March 2025",
+      description:
+        "Basic autonomous control of robot. Simulator reacts to different scenarios. Lightly coordinated gameplay in simulation.",
+    },
+    {
+      date: "April 2025",
+      description:
+        "Fleet assembled. Full fleet tested with whole system. Full sized field setup finished and in use. Fully optimized firmware. Simulation game play at basic level.",
+    },
+    {
+      date: "May 2025",
+      description: "Play initial game against UBC.",
+    },
+    {
+      date: "July 2025",
+      description: "Play good game of robot soccer against UBC.",
+    },
+    {
+      date: "October 2025",
+      description:
+        "All integration issues sorted out. Very strong software agent. Ready to begin qualification process for RoboCup 2026.",
+    },
+    {
+      date: "2026",
+      description:
+        "Goal: Qualify and compete in RoboCup 2026, identified as the best opportunity for the team to make it to RoboCup.",
     },
   ];
 

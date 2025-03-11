@@ -24,9 +24,9 @@ export const Footer = () => {
               >
                 <h4 className="icons text-4xl">Ú</h4>
               </a>
-              <a href="https://discord.com/invite/CK3nws9YPY" target="_blank">
+              {/* <a href="https://discord.com/invite/CK3nws9YPY" target="_blank">
                 <h4 className="icons text-4xl">â</h4>
-              </a>
+              </a> */}
               <a href="https://www.linkedin.com/company/sfurs/" target="_blank">
                 <h4 className="icons text-4xl">Ì</h4>
               </a>
@@ -42,37 +42,37 @@ export const Footer = () => {
 
           <div className="w-full overflow-x-hidden  flex flex-col lg:w-1/2 h-52 pb-4 justify-center items-start lg:items-end lg:h-60">
             <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/"
             >
               Home
             </Link>
             <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/teams"
             >
               Teams
             </Link>
             <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/sponsors"
             >
               Sponsors
             </Link>
             <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/about"
             >
               About
             </Link>
             <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/contact"
             >
               Contact
             </Link>
             {/* <Link
-              className="ml-6 lg:ml-0 lg:ml-0 plus-jakarta-sans-body footerLinks"
+              className="ml-6 lg:ml-0 plus-jakarta-sans-body footerLinks"
               to="/execcreateannouncements"
             >
               Post Announcement
@@ -86,7 +86,7 @@ export const Footer = () => {
           <p className="hidden lg:block mb-2 ml-6 text-sm lg:ml-0 text-black plus-jakarta-sans-body text-opacity-35">
             Designed and Developed 2024
           </p>
-          <p className="ml-6 lg:ml-0 mb-6 mr-6 text-xs lg:ml-0 text-black plus-jakarta-sans-body text-opacity-50">
+          <p className="ml-6 lg:ml-0 mb-6 mr-6 text-xs text-black plus-jakarta-sans-body text-opacity-50">
             Disclaimer: “Simon Fraser University”are registered trademarks of
             Simon Fraser University. This website is a student run website and
             is maintained, hosted, and operated independently of Simon Fraser

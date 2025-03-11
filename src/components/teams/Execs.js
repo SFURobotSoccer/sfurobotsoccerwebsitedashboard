@@ -8,12 +8,14 @@ import defaultPhoto from "../../images/peopleimages/default_profile.webp";
 import jerryHo from "../../images/peopleimages/jerry.webp";
 import araChristie from "../../images/peopleimages/ara.webp";
 import julianHosseini from "../../images/peopleimages/julian.webp";
+import jayKewalramani from "../../images/1710526962488.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
 import hoomehrMangoli from "../../images/peopleimages/hoomehrMangoli.jpg";
 import nathanLeung from "../../images/peopleimages/Nathan Leung.webp";
-
+import emmaQiu from "../../images/emmaQiu.jpeg";
+import anmolDhaliwal from "../../images/anmolDhaliwal2.png";
 export const Execs = () => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -49,8 +51,26 @@ export const Execs = () => {
     {
       image: araChristie,
       name: "Ara Christie",
-      role: "VP Admin",
+      role: "VP Administration",
       linkedIn: "https://www.linkedin.com/in/ara-christie-8a0404261/",
+    },
+    {
+      image: jayKewalramani,
+      name: "Jay Kewalramani",
+      role: "VP Administration",
+      linkedIn: "https://www.linkedin.com/in/jay-kewalramani-645510259/",
+    },
+    {
+      image: emmaQiu,
+      name: "Emma Qui",
+      role: "VP Corporate Relations",
+      linkedIn: "https://www.linkedin.com/in/emma-qiu-229635327",
+    },
+    {
+      image: anmolDhaliwal,
+      name: "Anmol Dhaliwal",
+      role: "VP Public Relations",
+      linkedIn: "http://www.linkedin.com/in/anmol-dhaliwal-75a12b1b9",
     },
     {
       image: mani,

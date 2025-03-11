@@ -17,21 +17,21 @@ export const MechanicsTeam = () => {
         descriptionLink: null,
       },
       {
-        name: "Head Mechanics Engineer",
+        name: "Head of Mechanical Engineering",
         description:
-          "As the Head of Mechanics, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
+          "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
         linkApply:
           "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
         descriptionLink: null,
       },
-      {
-        name: "Mechanics Engineer",
-        description:
-          "As a Mechanics Engineer, you will contribute to designing and prototyping mechanical systems for the robots. This hands-on role is perfect for individuals skilled in CAD programs and manufacturing methods like 3D printing and CNC.",
-        linkApply:
-          "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-        descriptionLink: null,
-      },
+      // {
+      //   name: "Mechanics Engineer",
+      //   description:
+      //     "As a Mechanics Engineer, you will contribute to designing and prototyping mechanical systems for the robots. This hands-on role is perfect for individuals skilled in CAD programs and manufacturing methods like 3D printing and CNC.",
+      //   linkApply:
+      //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      //   descriptionLink: null,
+      // },
     ];
 
     const teamMembers = [

@@ -4,6 +4,10 @@ import richKo from '../../images/peopleimages/default_profile.webp';
 import rahimDharamsi from '../../images/peopleimages/rahim.webp';
 import mohnishDevarapalli from '../../images/peopleimages/mohnish.webp';
 import willAlmeida from "../../images/WillDeAlmeida.webp";
+import harjotSingh from "../../images/peopleimages/harjotSingh.webp";
+import jayKewalramani from "../../images/1710526962488.webp";
+import adamNguyen from "../../images/adamNguyen.jpeg";
+import aliRzvi from "../../images/peopleimages/Ali Rizvi.webp";
 
 export const Coordinators = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +17,49 @@ export const Coordinators = () => {
   };
 
   const coordinators = [
+    // {
+    //   image: willAlmeida,
+    //   name: "Will de Almeida",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/willdalmeida/",
+    // },
+    // {
+    //   image: richKo,
+    //   name: "Job Macatangay",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/job-macatangay-5a5330275/",
+    // },
+    // {
+    //   image: richKo,
+    //   name: "Teddy Atulya",
+    //   role: "Corporate Relations Coordinator",
+    //   linkedIn: "https://www.linkedin.com/company/sfurs/",
+    // },
+    {
+      image: harjotSingh,
+      name: "Harjot Singh",
+      role: "Web Development Coordinator",
+      linkedIn: "https://www.linkedin.com/in/harjotsingh7/",
+    },
+    {
+      image: adamNguyen,
+      name: "Adam Nguyen",
+      role: "Graphic Design Coordinator",
+      linkedIn: "https://www.linkedin.com/in/adam-nguyen-02b522312/",
+    },
+    {
+      image: aliRzvi,
+      name: "Ali Rizvi",
+      role: "Accounting Coordinator",
+      linkedIn: "https://www.linkedin.com/in/ali-rizvi-89a7a1250/",
+    },
+    // {
+    //   image: jayKewalramani,
+    //   name: "Jay Kewalramani",
+    //   role: "Marketing Coordinator",
+    //   linkedIn:
+    //     "https://www.linkedin.com/in/jay-kewalramani-645510259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    // },
     {
       image: richKo,
       name: "Masa Wong",
@@ -37,24 +84,18 @@ export const Coordinators = () => {
       role: "Outreach Coordinator",
       linkedIn: "https://www.linkedin.com/company/sfurs/",
     },
-    // {
-    //   image: willAlmeida,
-    //   name: "Will de Almeida",
-    //   role: "Corporate Relations Coordinator",
-    //   linkedIn: "https://www.linkedin.com/in/willdalmeida/",
-    // },
-    // {
-    //   image: richKo,
-    //   name: "Job Macatangay",
-    //   role: "Corporate Relations Coordinator",
-    //   linkedIn: "https://www.linkedin.com/in/job-macatangay-5a5330275/",
-    // },
-    // {
-    //   image: richKo,
-    //   name: "Teddy Atulya",
-    //   role: "Corporate Relations Coordinator",
-    //   linkedIn: "https://www.linkedin.com/company/sfurs/",
-    // },
+    {
+      image: richKo,
+      name: "Winston Thov",
+      role: "Outreach Coordinator",
+      linkedIn: "https://www.linkedin.com/in/winston-thov-2209a120b/",
+    },
+    {
+      image: richKo,
+      name: "Ricky",
+      role: "Finance Coordinator",
+      linkedIn: "https://www.linkedin.com/in/rickyygcheng/",
+    },
   ];
 
   return (

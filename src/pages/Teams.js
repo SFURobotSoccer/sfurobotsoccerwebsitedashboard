@@ -17,7 +17,7 @@ export const Teams = () => {
 
         <Execs />
 
-        <Directors />
+        {/* <Directors /> */}
 
         <Coordinators />
 

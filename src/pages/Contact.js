@@ -27,12 +27,12 @@ export const Contact = () => {
               </h4>
             </p>
 
-            <h3 className="plus-jakarta-sans-button text-lg lg:text-md mt-6 mb-1">
+            {/* <h3 className="plus-jakarta-sans-button text-lg lg:text-md mt-6 mb-1">
               <button>
                 Discord <span className="icons text-red-700">â</span>
               </button>
-            </h3>
-            <a
+            </h3> */}
+            {/* <a
               href="https://discord.com/invite/CK3nws9YPY"
               target="_blank"
               className="hover:cursor-pointer"
@@ -40,7 +40,7 @@ export const Contact = () => {
               <h4 className="plus-jakarta-sans-body text-black transition duration-500 ease-in-out lg:hover:text-opacity-100  lg:text-opacity-50 text-sm mb-1">
                 SFU Robotic Soccer
               </h4>
-            </a>
+            </a> */}
 
             <h3 className="plus-jakarta-sans-button text-lg lg:text-md mt-6 mb-1">
               <button>

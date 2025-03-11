@@ -34,14 +34,14 @@ export const SoftwareTeams = () => {
   ];
 
   const openRoles = [
-    {
-      name: "Software Developer",
-      description:
-        "As a Software Developer, you will contribute to the team by implementing AI and networking components in C++. This role involves working in a collaborative environment, creating documentation, and applying your problem-solving skills to enhance our software. Proficiency in C++ and Python is essential.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      descriptionLink: null,
-    },
+    // {
+    //   name: "Software Developer",
+    //   description:
+    //     "As a Software Developer, you will contribute to the team by implementing AI and networking components in C++. This role involves working in a collaborative environment, creating documentation, and applying your problem-solving skills to enhance our software. Proficiency in C++ and Python is essential.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+    //   descriptionLink: null,
+    // },
   ];
 
   return (
@@ -135,7 +135,7 @@ export const SoftwareTeams = () => {
           )}
 
           {teamMembers.length !== 0 ? (
-            <div className="mt-4 mb-2 lg:flex-row lg:gap-6 flex-row lg:mt-10 flex lg:gap-6 ">
+            <div className="mt-4 mb-2 lg:flex-row flex-row lg:mt-10 flex lg:gap-6 ">
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
