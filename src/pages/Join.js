@@ -3,7 +3,7 @@ import { Footer } from "../components/Footer";
 import { FiArrowUpRight, FiFileText } from "react-icons/fi";
 
 export const Join = () => {
-  const [techRoles, setTechRoles] = useState(false);
+  const [techRoles, setTechRoles] = useState(true);
 
   const openRoles = [
     // {
