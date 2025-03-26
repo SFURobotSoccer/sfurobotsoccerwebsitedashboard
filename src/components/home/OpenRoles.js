@@ -50,6 +50,24 @@ export const OpenRoles = () => {
     //   goTo: "/join",
     // },
     {
+      name: "VP of Finance",
+      description:
+        "As the VP of Finance, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Business Team Lead",
+      description:
+        "As the Business Team Lead, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
       name: "Mechanics Co-Lead",
       description:
         "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",

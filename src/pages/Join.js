@@ -6,15 +6,24 @@ export const Join = () => {
   const [techRoles, setTechRoles] = useState(true);
 
   const openRoles = [
-    // {
-    //   name: "VP of Administration",
-    //   description:
-    //     "As the VP of Administration, you will ensure the smooth operation of the team by maintaining organized records, managing club infrastructure such as Discord and Google Drive, and keeping track of meeting minutes. This position is perfect for someone who is detail-oriented, highly organized, and enjoys ensuring that all administrative aspects of the team run seamlessly.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
+    {
+      name: "VP of Finance",
+      description:
+        "As the VP of Finance, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Business Team Lead",
+      description:
+        "As the Business Team Lead, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
     // {
     //   name: "VP of Public Relations",
     //   description:

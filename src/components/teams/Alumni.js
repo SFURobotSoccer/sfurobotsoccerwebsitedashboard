@@ -1,16 +1,17 @@
 import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 import React, {useState} from "react";
-import arvinAmini from '../../images/peopleimages/arvin.webp';
-import georgeLertzmanLepofsky from '../../images/peopleimages/george.webp';
-import amitisHaghdadi from '../../images/peopleimages/amitis.webp';
-import taraKazemi from '../../images/peopleimages/tara.webp';
-import jordanLei from '../../images/peopleimages/jordan.webp';
-import damoonTahmasbi from '../../images/peopleimages/damoon.webp';
-import carloClores from '../../images//peopleimages/carlo.webp';
-import dylanReviczky from '../../images/peopleimages/dylan.webp';
-import aidanGerrebos from '../../images/peopleimages/aidan.webp';
-import juddFoster from '../../images/peopleimages/judd.webp';
-import martinKeivanloo from '../../images/peopleimages/martin.webp';
+import araChristie from "../../images/peopleimages/ara.webp";
+import arvinAmini from "../../images/peopleimages/arvin.webp";
+import georgeLertzmanLepofsky from "../../images/peopleimages/george.webp";
+import amitisHaghdadi from "../../images/peopleimages/amitis.webp";
+import taraKazemi from "../../images/peopleimages/tara.webp";
+import jordanLei from "../../images/peopleimages/jordan.webp";
+import damoonTahmasbi from "../../images/peopleimages/damoon.webp";
+import carloClores from "../../images//peopleimages/carlo.webp";
+import dylanReviczky from "../../images/peopleimages/dylan.webp";
+import aidanGerrebos from "../../images/peopleimages/aidan.webp";
+import juddFoster from "../../images/peopleimages/judd.webp";
+import martinKeivanloo from "../../images/peopleimages/martin.webp";
 import adamSpelrem from "../../images/peopleimages/adam_spelrem.webp";
 import matthewdoSantosZounon from "../../images/matthew.webp";
 
@@ -57,6 +58,12 @@ export const Alumni = () => {
       name: "Jordan Lei",
       role: "VP of Finance",
       linkedIn: "https://www.linkedin.com/in/jordanlei/",
+    },
+    {
+      image: araChristie,
+      name: "Ara Christie",
+      role: "VP Administration",
+      linkedIn: "https://www.linkedin.com/in/ara-christie-8a0404261/",
     },
     {
       image: damoonTahmasbi,

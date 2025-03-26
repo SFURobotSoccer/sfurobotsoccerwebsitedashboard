@@ -6,7 +6,6 @@ import mani from '../../images/peopleimages/mani.webp';
 import thomasChallis from "../../images/peopleimages/thomas_challis.webp";
 import defaultPhoto from "../../images/peopleimages/default_profile.webp";
 import jerryHo from "../../images/peopleimages/jerry.webp";
-import araChristie from "../../images/peopleimages/ara.webp";
 import julianHosseini from "../../images/peopleimages/julian.webp";
 import jayKewalramani from "../../images/1710526962488.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
@@ -47,12 +46,6 @@ export const Execs = () => {
       name: "Nathan Leung",
       role: "VP of Operations",
       linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
-    },
-    {
-      image: araChristie,
-      name: "Ara Christie",
-      role: "VP Administration",
-      linkedIn: "https://www.linkedin.com/in/ara-christie-8a0404261/",
     },
     {
       image: jayKewalramani,
