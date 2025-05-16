@@ -26,6 +26,15 @@ export const ElectronicsTeam = () => {
     //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
     //   descriptionLink: null,
     // },
+    {
+      name: "Electronics Engineer",
+      description:
+        "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      descriptionLink: null,
+      goTo: "/teams/electronics",
+    },
   ];
 
   const teamMembers = [
