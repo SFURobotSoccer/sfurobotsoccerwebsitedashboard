@@ -31,6 +31,15 @@ export const FirmwareTeams = () => {
     //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
     //   descriptionLink: null,
     // },
+    {
+      name: "Firmware Developer",
+      description:
+        "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+      descriptionLink: null,
+      goTo: "/teams/firmware",
+    },
   ];
 
   const teamMembers = [
