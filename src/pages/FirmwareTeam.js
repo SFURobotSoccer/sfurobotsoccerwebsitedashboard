@@ -31,15 +31,16 @@ export const FirmwareTeams = () => {
     //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
     //   descriptionLink: null,
     // },
-    {
+{
       name: "Firmware Developer",
       description:
-        "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
+        "Developing firmware for a range of microcontrollers including SAM, PIC, and Arduino platforms. Perform testing of firmware code on the robots and robotic components Involves contributing to code reviews, debugging, and optimizing firmware Integration testing across all robotic subsystems with other teams.",
       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
+        "https://forms.gle/6ewChzzDcKwAuTS59",
       descriptionLink: null,
       goTo: "/teams/firmware",
     },
+    
   ];
 
   const teamMembers = [
