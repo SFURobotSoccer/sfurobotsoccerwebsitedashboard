@@ -105,19 +105,19 @@ export const FirstYearKickOffProgram = () => {
           robotic control algorithms as well as our interface.
         </p>
 
-        // <a
-        //   href="https://docs.google.com/forms/d/e/1FAIpQLSdUKHtvzfIa5xg8xk-jE1l7bxFu_PBHwDTAlL2dLS0srXi44g/viewform"
-        //   className="mt-8"
-        //   target="_blank"
-        // >
-        //   <button
-        //     id="buttonPrimary"
-        //     className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
-        //   >
-        //     Apply Now
-        //     <FiArrowUpRight strokeWidth={3} />{" "}
-        //   </button>
-        // </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdUKHtvzfIa5xg8xk-jE1l7bxFu_PBHwDTAlL2dLS0srXi44g/viewform"
+          className="mt-8"
+          target="_blank"
+        >
+          <button
+            id="buttonPrimary"
+            className="flex w-max items-center gap-2 plus-jakarta-sans-button text-sm px-6 py-2 tracking-wide rounded-md"
+          >
+            Apply Now
+            <FiArrowUpRight strokeWidth={3} />{" "}
+          </button>
+        </a>
       </div>
       <Footer />
     </>
