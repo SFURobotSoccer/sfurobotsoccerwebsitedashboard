@@ -24,24 +24,24 @@ export const Join = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
-    // {
-    //   name: "VP of Public Relations",
-    //   description:
-    //     "As the VP of Public Relations, you will lead the creation of engaging promotional materials and visual content that align with the team’s goals. From capturing event highlights to designing impactful media, you will ensure the team’s message reaches the right audience. A creative flair and experience with tools like Canva or Photoshop are valuable for this position. ",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
-    // {
-    //   name: "VP of Corporate Relations",
-    //   description:
-    //     "As the VP of Corporate Relations, you will drive the team’s sponsorship efforts by securing corporate funding, maintaining relationships with sponsors, and preparing impactful presentations to showcase our club’s commitment to excellence and social responsibility. This role is perfect for individuals with strong communication skills, organizational expertise, and a passion for connecting with industry professionals.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
+    {
+      name: "VP of Public Relations",
+      description:
+        "As the VP of Public Relations, you will lead the creation of engaging promotional materials and visual content that align with the team’s goals. The ability to work with a team to create high quality content in time sensitive environments Support in designing visual content for various projects. Attend events and prepare for and lead pitch meetings with corporate prospects and industry professionals to secure sponsorships.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Director of Graphic Design",
+      description:
+        "Design engaging graphics for digital and print media (e.g., social posts, posters, newsletters). Maintain brand consistency across all designs. Design external materials like sponsorship packages and slide decks to engage stakeholders. Assist in curating visual content libraries (photos, icons, textures, etc.) for team-wide use",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
     // {
     //   name: "Finance Coordinator",
     //   description:
@@ -63,22 +63,22 @@ export const Join = () => {
   ];
 
   const openRolesTech = [
-      //     {
-      //   name: "Mechanics Co-Lead",
-      //   description:
-      //     "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
-      //   linkApply:
-      //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      //   descriptionLink: null,
-      // },
-      // {
-      //   name: "Head of Mechanical Engineering",
-      //   description:
-      //     "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
-      //   linkApply:
-      //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-      //   descriptionLink: null,
-      // },
+          {
+        name: "Mechanics Co-Lead",
+        description:
+          "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
+        linkApply:
+          "https://forms.gle/6ewChzzDcKwAuTS59",
+        descriptionLink: null,
+      },
+      {
+        name: "Head of Mechanical Engineering",
+        description:
+          "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
+        linkApply:
+          "https://forms.gle/6ewChzzDcKwAuTS59",
+        descriptionLink: null,
+      },
     {
       name: "Firmware Developer",
       description:
