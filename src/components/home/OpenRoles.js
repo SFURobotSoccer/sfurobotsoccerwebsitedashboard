@@ -27,7 +27,7 @@ export const OpenRoles = () => {
       description:
         "As the VP of Public Relations, you will lead the creation of engaging promotional materials and visual content that align with the team’s goals. The ability to work with a team to create high quality content in time sensitive environments Support in designing visual content for various projects. Attend events and prepare for and lead pitch meetings with corporate prospects and industry professionals to secure sponsorships.",
       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+        "https://forms.gle/DVwhQ7duBs25SGFs9",
       descriptionLink: null,
       goTo: "/join",
     },
@@ -36,7 +36,7 @@ export const OpenRoles = () => {
       description:
         "Design engaging graphics for digital and print media (e.g., social posts, posters, newsletters). Maintain brand consistency across all designs. Design external materials like sponsorship packages and slide decks to engage stakeholders. Assist in curating visual content libraries (photos, icons, textures, etc.) for team-wide use",
       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
+        "https://forms.gle/DVwhQ7duBs25SGFs9",
       descriptionLink: null,
       goTo: "/join",
     },
