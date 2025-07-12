@@ -35,7 +35,7 @@ export const SponsorshipPackageTableDesktop = () => {
       <div className="h-max w-48">
         <div className="flex flex-col justify-center items-center">
           <p className="h-20 flex justify-center items-end pb-2 plus-jakarta-sans-button text-xl">
-            Platinum
+            Innovation Partner
           </p>
           <p className="h-20 w-full border-2 border-black  border-opacity-5 border-r-0 border-b-0 flex items-center justify-center plus-jakarta-sans-button text-red-700 text-md">
             <FiCheck strokeWidth={4} />
@@ -66,7 +66,7 @@ export const SponsorshipPackageTableDesktop = () => {
       <div className="h-max w-48">
         <div className="flex flex-col justify-center items-center">
           <p className="h-20 flex justify-center items-end pb-2 plus-jakarta-sans-button text-xl">
-            Gold
+            Visionary Sponsor
           </p>
           <p className="h-20 w-full border-2 border-black  border-opacity-5 flex border-r-0 border-b-0 items-center justify-center plus-jakarta-sans-button text-red-700 text-md">
             <FiCheck strokeWidth={4} />
@@ -91,7 +91,7 @@ export const SponsorshipPackageTableDesktop = () => {
       <div className="h-max w-48">
         <div className="flex flex-col justify-center items-center">
           <p className="h-20 flex justify-center items-end pb-2 plus-jakarta-sans-button text-xl">
-            Silver
+            Community Sponsor
           </p>
           <p className="h-20 w-full border-2 border-black  border-opacity-5 flex border-r-0 border-b-0 items-center justify-center plus-jakarta-sans-button text-red-700 text-md">
             <FiCheck strokeWidth={4} />
@@ -112,7 +112,7 @@ export const SponsorshipPackageTableDesktop = () => {
       <div className="h-max w-48">
         <div className="flex flex-col justify-center items-center">
           <p className="h-20 flex justify-center items-end pb-2 plus-jakarta-sans-button text-xl">
-            Bronze
+            Supporting Sponsor
           </p>
           <p className="h-20 w-full border-2 border-black  border-opacity-5 flex  border-b-0 items-center justify-center plus-jakarta-sans-button text-red-700 text-md">
             <FiCheck strokeWidth={4} />
