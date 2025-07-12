@@ -8,7 +8,7 @@ export const Didyouknow = () => {
       <div className="flex flex-col lg:flex-row w-full h-max bg-gray-100 bg-opacity-50 gap-16 mt-16 mb-7 px-14 py-10 justify-between rounded-lg">
         <div className="flex-1 h-max mx-2 rounded-md flex flex-col items-left">
           <h2 className="text-lg plus-jakarta-sans-heading flex items-center text-left gap-1 mb-1">
-            Platinum
+            Innovation Partner
           </h2>
           <p className="text-sm text-black text-opacity-60 plus-jakarta-sans-body flex leading-6 items-center text-left gap-1 mb-2">
             Exclusive logo placement and VIP access to all events.
@@ -24,7 +24,7 @@ export const Didyouknow = () => {
         </div>
         <div className="flex-1 h-max mx-2 rounded-md flex flex-col items-left">
           <h2 className="text-lg plus-jakarta-sans-heading flex items-left text-left gap-1 mb-1">
-            Gold
+            Visionary Sponsor
           </h2>
           <p className="text-sm text-black text-opacity-60 plus-jakarta-sans-body flex leading-6 items-center text-left gap-1 mb-2">
             Prominent logo visibility and invitations to major events.
@@ -40,7 +40,7 @@ export const Didyouknow = () => {
         </div>
         <div className="flex-1 h-max mx-2 rounded-md flex flex-col items-left">
           <h2 className="text-lg plus-jakarta-sans-heading flex items-center text-left gap-1 mb-1">
-            Silver
+            Community Sponsor
           </h2>
           <p className="text-sm text-black text-opacity-60 plus-jakarta-sans-body flex leading-6 items-center text-left gap-1 mb-2">
             Logo on secondary gear and select event invitations.
@@ -56,7 +56,7 @@ export const Didyouknow = () => {
         </div>
         <div className="flex-1 h-max mx-2 rounded-md flex flex-col items-left">
           <h2 className="text-lg plus-jakarta-sans-heading flex items-center text-left gap-1 mb-1">
-            Bronze
+            Supporting Sponsor
           </h2>
           <p className="text-sm text-black text-opacity-60 plus-jakarta-sans-body flex leading-6 items-center text-left gap-1 mb-2">
             Logo on our website and certain event banners when applicable.
