@@ -65,10 +65,10 @@ export const BecomeSponsorForm = () => {
             onChange={(e) => setSponsorshipPackage(e.target.value)}
             className="w-full outline-none h-10 bg-gray-100 flex items-center gap-2 plus-jakarta-sans-body text-sm px-3 tracking-wide rounded-md appearance-none rounded py-2 pl-3 pr-10"
           >
-            <option value="Bronze">Bronze</option>
-            <option value="Silver">Silver</option>
-            <option value="Gold">Gold</option>
-            <option value="Platinum">Platinum</option>
+            <option value="Bronze">Visionary Sponsor</option>
+            <option value="Silver">Community Sponsor</option>
+            <option value="Gold">Visionary Sponsor</option>
+            <option value="Platinum">Innovation Partner</option>
           </select>
         </div>
       </div>
