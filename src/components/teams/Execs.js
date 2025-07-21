@@ -35,18 +35,18 @@ export const Execs = () => {
       role: "VP of Public Relations",
       linkedIn: "https://www.linkedin.com/in/thomas-challis-36460b1ba/",
     },
-    {
-      image: jerryHo,
-      name: "Jerry Hu",
-      role: "VP of Finance",
-      linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
-    },
-    {
-      image: nathanLeung,
-      name: "Nathan Leung",
-      role: "VP of Operations",
-      linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
-    },
+    // {
+    //   image: jerryHo,
+    //   name: "Jerry Hu",
+    //   role: "VP of Finance",
+    //   linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
+    // },
+    // {
+    //   image: nathanLeung,
+    //   name: "Nathan Leung",
+    //   role: "VP of Operations",
+    //   linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
+    // },
     {
       image: jayKewalramani,
       name: "Jay Kewalramani",
@@ -54,16 +54,22 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/jay-kewalramani-645510259/",
     },
     {
-      image: emmaQiu,
-      name: "Emma Qui",
-      role: "VP Corporate Relations",
-      linkedIn: "https://www.linkedin.com/in/emma-qiu-229635327",
-    },
-    {
-      image: anmolDhaliwal,
-      name: "Anmol Dhaliwal",
+      image: defaultPhoto,
+      name: "Felicia Jayasaputra",
       role: "VP Public Relations",
-      linkedIn: "http://www.linkedin.com/in/anmol-dhaliwal-75a12b1b9",
+      linkedIn: "www.linkedin.com/in/feliciajayasaputra02",
+    },
+    // {
+    //   image: anmolDhaliwal,
+    //   name: "Anmol Dhaliwal",
+    //   role: "VP Public Relations",
+    //   linkedIn: "http://www.linkedin.com/in/anmol-dhaliwal-75a12b1b9",
+    // },
+    {
+      image: emmaQiu,
+      name: "Emma Qiu",
+      role: "Business Team Lead",
+      linkedIn: "https://www.linkedin.com/in/emma-qiu-229635327",
     },
     {
       image: mani,
