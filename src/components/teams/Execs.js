@@ -9,6 +9,7 @@ import jerryHo from "../../images/peopleimages/jerry.webp";
 import julianHosseini from "../../images/peopleimages/julian.webp";
 import jayKewalramani from "../../images/1710526962488.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
+import feliciaJayasaputra from "../../images/1718705196455.jpeg";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
 import hoomehrMangoli from "../../images/peopleimages/hoomehrMangoli.jpg";
@@ -54,10 +55,10 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/jay-kewalramani-645510259/",
     },
     {
-      image: defaultPhoto,
+      image: feliciaJayasaputra,
       name: "Felicia Jayasaputra",
       role: "VP Public Relations",
-      linkedIn: "www.linkedin.com/in/feliciajayasaputra02",
+      linkedIn: "https://www.linkedin.com/in/feliciajayasaputra02",
     },
     // {
     //   image: anmolDhaliwal,
