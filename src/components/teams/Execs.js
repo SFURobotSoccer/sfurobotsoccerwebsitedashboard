@@ -5,7 +5,8 @@ import zachSpencer from '../../images/peopleimages/zach_spencer.webp';
 import mani from '../../images/peopleimages/mani.webp';
 import thomasChallis from "../../images/peopleimages/thomas_challis.webp";
 import defaultPhoto from "../../images/peopleimages/default_profile.webp";
-
+import borisStanic from "../../images/1729720539932.jpeg";
+import sachkeeratSandhu from "../../images/1746347081394.jpeg";
 import julianHosseini from "../../images/peopleimages/julian.webp";
 import jayKewalramani from "../../images/1710526962488.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
@@ -49,13 +50,13 @@ export const Execs = () => {
       linkedIn: "https://www.linkedin.com/in/feliciajayasaputra02",
     },
     {
-      image: defaultPhoto,
+      image: borisStanic,
       name: "Boris Stanic",
       role: "VP Finance",
       linkedIn: "https://www.linkedin.com/in/boris-stanic",
     },
     {
-      image: defaultPhoto,
+      image: sachkeeratSandhu,
       name: "Sachkeerat Sandhu",
       role: "VP Corporate Relations",
       linkedIn: "https://www.linkedin.com/in/sachkeeratsandhu",
