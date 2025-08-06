@@ -5,7 +5,7 @@ import zachSpencer from '../../images/peopleimages/zach_spencer.webp';
 import mani from '../../images/peopleimages/mani.webp';
 import thomasChallis from "../../images/peopleimages/thomas_challis.webp";
 import defaultPhoto from "../../images/peopleimages/default_profile.webp";
-import jerryHo from "../../images/peopleimages/jerry.webp";
+
 import julianHosseini from "../../images/peopleimages/julian.webp";
 import jayKewalramani from "../../images/1710526962488.webp";
 import zacharyGoodman from "../../images/peopleimages/zachary.webp";
@@ -13,9 +13,9 @@ import feliciaJayasaputra from "../../images/1718705196455.jpeg";
 import sukhrajPureWal from "../../images/sukhrajPurewal.webp";
 import jonathanUng from "../../images/jonathanUng.webp";
 import hoomehrMangoli from "../../images/peopleimages/hoomehrMangoli.jpg";
-import nathanLeung from "../../images/peopleimages/Nathan Leung.webp";
 import emmaQiu from "../../images/emmaQiu.jpeg";
 import anmolDhaliwal from "../../images/anmolDhaliwal2.png";
+
 export const Execs = () => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -33,21 +33,9 @@ export const Execs = () => {
     {
       image: thomasChallis,
       name: "Thomas Challis",
-      role: "VP of Public Relations",
+      role: "VP Internal Relations",
       linkedIn: "https://www.linkedin.com/in/thomas-challis-36460b1ba/",
     },
-    // {
-    //   image: jerryHo,
-    //   name: "Jerry Hu",
-    //   role: "VP of Finance",
-    //   linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
-    // },
-    // {
-    //   image: nathanLeung,
-    //   name: "Nathan Leung",
-    //   role: "VP of Operations",
-    //   linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
-    // },
     {
       image: jayKewalramani,
       name: "Jay Kewalramani",
@@ -59,6 +47,18 @@ export const Execs = () => {
       name: "Felicia Jayasaputra",
       role: "VP Public Relations",
       linkedIn: "https://www.linkedin.com/in/feliciajayasaputra02",
+    },
+    {
+      image: defaultPhoto,
+      name: "Boris Stanic",
+      role: "VP Finance",
+      linkedIn: "https://www.linkedin.com/in/boris-stanic",
+    },
+    {
+      image: defaultPhoto,
+      name: "Sachkeerat Sandhu",
+      role: "VP Corporate Relations",
+      linkedIn: "https://www.linkedin.com/in/sachkeeratsandhu",
     },
     // {
     //   image: anmolDhaliwal,
