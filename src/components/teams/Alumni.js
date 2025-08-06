@@ -14,6 +14,8 @@ import juddFoster from "../../images/peopleimages/judd.webp";
 import martinKeivanloo from "../../images/peopleimages/martin.webp";
 import adamSpelrem from "../../images/peopleimages/adam_spelrem.webp";
 import matthewdoSantosZounon from "../../images/matthew.webp";
+import nathanLeung from "../../images/peopleimages/Nathan Leung.webp";
+import jerryHo from "../../images/peopleimages/jerry.webp";
 
 export const Alumni = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -106,6 +108,18 @@ export const Alumni = () => {
       name: "Matthew do Santos-Zounon",
       role: "Software Team Lead",
       linkedIn: "https://www.linkedin.com/in/mdsz/",
+    },
+    {
+      image: jerryHo,
+      name: "Jerry Hu",
+      role: "VP of Finance",
+      linkedIn: "https://www.linkedin.com/in/-jerry-hu/",
+    },
+    {
+      image: nathanLeung,
+      name: "Nathan Leung",
+      role: "VP of Operations",
+      linkedIn: "https://www.linkedin.com/in/nathan-leung-441832246/",
     },
   ];
 
