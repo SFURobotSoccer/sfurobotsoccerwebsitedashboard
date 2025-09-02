@@ -25,7 +25,7 @@ export const Join = () => {
     //   goTo: "/join",
     // },
     {
-      name: "VP of Internal Realations",
+      name: "VP of Internal Relations",
       description:
         "",
       linkApply:
