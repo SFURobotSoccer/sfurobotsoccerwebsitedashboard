@@ -86,7 +86,7 @@ export const OpenRoles = () => {
       goTo: "/join",
     },
     {
-      name: "Outreach CO-Lead",
+      name: "Outreach Co-Lead",
       description:
         "",
       linkApply:
