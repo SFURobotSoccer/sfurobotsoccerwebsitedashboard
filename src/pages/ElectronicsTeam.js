@@ -36,7 +36,15 @@ export const ElectronicsTeam = () => {
       descriptionLink: null,
       goTo: "/teams/electronics",
     },
-   
+    {
+        name: "Head of Electronics Engineering",
+        description:
+          "As Electronics Head Engineer, you’ll design and troubleshoot PCBs, mentor subteam members, and oversee integration of electronics with mechanics and firmware.",
+        linkApply:
+          "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
+        descriptionLink: null,
+      },
+    
   ];
 
   const teamMembers = [
