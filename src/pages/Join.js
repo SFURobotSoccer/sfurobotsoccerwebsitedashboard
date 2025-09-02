@@ -34,7 +34,7 @@ export const Join = () => {
       goTo: "/join",
     },
     {
-      name: "Outreach CO-Lead",
+      name: "Outreach Co-Lead",
       description:
         "",
       linkApply:
