@@ -36,7 +36,7 @@ export const FirmwareTeams = () => {
       description:
         "Developing firmware for a range of microcontrollers including SAM, PIC, and Arduino platforms. Perform testing of firmware code on the robots and robotic components Involves contributing to code reviews, debugging, and optimizing firmware Integration testing across all robotic subsystems with other teams.",
       linkApply:
-        "https://forms.gle/6ewChzzDcKwAuTS59",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
       descriptionLink: null,
       goTo: "/teams/firmware",
     },
