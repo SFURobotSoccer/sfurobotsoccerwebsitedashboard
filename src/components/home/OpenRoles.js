@@ -83,6 +83,7 @@ export const OpenRoles = () => {
         linkApply:
           "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
+        goTo: "/teams/mechanics",
       },
       {
         name: "Head of Mechanical Engineering",
@@ -91,6 +92,7 @@ export const OpenRoles = () => {
         linkApply:
           "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
+        goTo: "/teams/mechanics",
       },
     {
       name: "Firmware Developer",
