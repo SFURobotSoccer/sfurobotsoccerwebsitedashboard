@@ -7,24 +7,6 @@ export const Join = () => {
 
   const openRoles = [
     // {
-    //   name: "VP of Finance",
-    //   description:
-    //     "As the VP of Finance, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
-    // {
-    //   name: "Business Team Lead",
-    //   description:
-    //     "As the Business Team Lead, you will be responsible for managing the club's finances, including budgeting, expense tracking, and financial reporting. You will also be involved in fundraising efforts and sponsorship negotiations.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
-    // {
     //   name: "VP of Public Relations",
     //   description:
     //     "As the VP of Public Relations, you will lead the creation of engaging promotional materials and visual content that align with the team’s goals. The ability to work with a team to create high quality content in time sensitive environments Support in designing visual content for various projects. Attend events and prepare for and lead pitch meetings with corporate prospects and industry professionals to secure sponsorships.",
@@ -42,31 +24,76 @@ export const Join = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
-    // {
-    //   name: "Finance Coordinator",
-    //   description:
-    //     "As the Finance Coordinator, you will manage the team’s budget, track expenses, and ensure compliance with funding guidelines. This role is suited for individuals with a strong grasp of financial principles and Excel skills, who are ready to contribute to the team’s financial transparency and success.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
-    // {
-    //   name: "Outreach Director",
-    //   description:
-    //     "As the Outreach Director, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSc_hUEFEPLV6nEk73rL39YmyGlN0TewqiafD4cFEJqMchdgJg/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
+    {
+      name: "VP of Internal Realations",
+      description:
+        "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Outreach CO-Lead",
+      description:
+        "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Finance Coordinator",
+      description:
+        "As the Finance Coordinator, you will manage the team’s budget, track expenses, and ensure compliance with funding guidelines. This role is suited for individuals with a strong grasp of financial principles and Excel skills, who are ready to contribute to the team’s financial transparency and success.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Corporate Relations Coordinator",
+      description:
+        "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Outreach Coordinator",
+      description:
+        "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Marketing Coordinator",
+      description:
+        "",
+       linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Learning Groups Coordinator",
+      description:
+        "",
+       linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+      descriptionLink: null,
+      goTo: "/join",
+    },
   ];
 
   const openRolesTech = [
           {
         name: "Mechanics Co-Lead",
         description:
-          "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
+          "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background i",
         linkApply:
           "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
@@ -75,6 +102,14 @@ export const Join = () => {
         name: "Head of Mechanical Engineering",
         description:
           "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
+        linkApply:
+          "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
+        descriptionLink: null,
+      },
+    {
+        name: "Head of Electronics Engineering",
+        description:
+          "As Electronics Head Engineer, you’ll design and troubleshoot PCBs, mentor subteam members, and oversee integration of electronics with mechanics and firmware.",
         linkApply:
           "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
