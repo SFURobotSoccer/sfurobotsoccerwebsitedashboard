@@ -13,7 +13,7 @@ export const MechanicsTeam = () => {
         description:
           "As the Mechanics Co-Lead, you will guide the team in designing and developing the physical components of our robots, including chassis and drive systems. This leadership role is suited for individuals with a strong background in mechanical design, CAD software, and project management.",
         linkApply:
-          "https://forms.gle/6ewChzzDcKwAuTS59",
+          "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
       },
       {
@@ -21,7 +21,7 @@ export const MechanicsTeam = () => {
         description:
           "As the Head of Mechanical Engineering, you will lead the team in designing and implementing the physical components of our robots, including the drive train, chassis, and kicker. You will provide technical guidance, delegate tasks effectively, and ensure the integration of mechanical designs with other subsystems. This leadership role is ideal for individuals with strong CAD skills, mechanical design expertise, and excellent organizational abilities.",
         linkApply:
-          "https://forms.gle/6ewChzzDcKwAuTS59",
+          "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
         descriptionLink: null,
       },
     {
@@ -29,7 +29,7 @@ export const MechanicsTeam = () => {
       description:
         "Help design and prototype mechanical and electromechanical systems on our fleet of robots. Fabrication and assembly of parts including drive train, chassis, and kicker Research and evaluate materials essential for the projects, ensuring consistent improvement of mechanical quality",
       linkApply:
-        "https://forms.gle/6ewChzzDcKwAuTS59",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
       descriptionLink: null,
       goTo: "/teams/mechanics",
     },
