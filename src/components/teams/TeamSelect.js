@@ -42,12 +42,12 @@ export const TeamSelect = () => {
       description: "Bring ideas to life",
       linkTo: "/join",
     },
-    {
-      team: "Kick Off Program",
-      icon: <FaRegFutbol size={14} strokeWidth={2} />,
-      description: "Kick Off into RS",
-      linkTo: "/kickoff",
-    },
+    // {
+    //   team: "Kick Off Program",
+    //   icon: <FaRegFutbol size={14} strokeWidth={2} />,
+    //   description: "Kick Off into RS",
+    //   linkTo: "/kickoff",
+    // },
   ];
 
   return (
