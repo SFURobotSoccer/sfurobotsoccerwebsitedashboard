@@ -47,7 +47,7 @@ export const SoftwareTeams = () => {
       description:
         "Build and test software components in C++, Python, QML, and XML. Contribute to multiple sub-projects and maintain. detailed documentation in a team setting. Write tests with Boost.UT and create documentation",
       linkApply:
-        "https://forms.gle/6ewChzzDcKwAuTS59",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
       descriptionLink: null,
       goTo: "/teams/software",
     },
