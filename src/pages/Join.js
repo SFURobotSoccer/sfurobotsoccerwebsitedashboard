@@ -244,6 +244,8 @@ export const Join = () => {
           Join The Team
         </h2>
 
+      <h3 className="plus-jakarta-sans-heading text-2xl mb-0">Open Roles</h3>
+      
         <a 
           href="/SFURSFallHiringPackage2025-2026.pdf" 
           target="_blank" 
@@ -252,10 +254,7 @@ export const Join = () => {
         >
           View Full Hiring Package
         </a>
-
-
-    
-        <h3 className="plus-jakarta-sans-heading text-2xl mb-0">Open Roles</h3>
+            
         <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6"></p>
         <div className="flex flex-row items-center gap-4 mb-5">
           <button
