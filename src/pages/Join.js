@@ -248,7 +248,7 @@ export const Join = () => {
           href="/SFURSFallHiringPackage2025-2026.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="underline"
+          className="underline font-bold"
         >
           View Full Hiring Package
         </a>
