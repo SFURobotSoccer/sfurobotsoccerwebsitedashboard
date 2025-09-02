@@ -244,16 +244,16 @@ export const Join = () => {
           Join The Team
         </h2>
 
-        // <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6">
-        //   <a 
-        //     href="/path-to-your-pdf/SFURS_Hiring_Package.pdf" 
-        //     target="_blank" 
-        //     rel="noopener noreferrer"
-        //     className="underline"
-        //   >
-        //     View Full Hiring Package (PDF)
-        //   </a>
-        // </p>
+        <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6">
+          <a 
+            href="src/files/SFURSFallHiringPackage2025-2026.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            View Full Hiring Package
+          </a>
+        </p>
     
         <h3 className="plus-jakarta-sans-heading text-2xl mb-0">Open Roles</h3>
         <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6"></p>
