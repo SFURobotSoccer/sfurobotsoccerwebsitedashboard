@@ -32,7 +32,7 @@ export const ElectronicsTeam = () => {
       description:
         "Design and modify custom PCBs and other electronics using Altium designer. Actively engage in troubleshooting hardware issues. Work collaboratively with other members to integrate new components on the robots. Solder, assemble, and rework PCBs",
       linkApply:
-        "https://forms.gle/6ewChzzDcKwAuTS59",
+        "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
       descriptionLink: null,
       goTo: "/teams/electronics",
     },
