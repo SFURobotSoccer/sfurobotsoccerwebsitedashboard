@@ -246,7 +246,7 @@ export const Join = () => {
 
         <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6">
           <a 
-            href="src/files/SFURSFallHiringPackage2025-2026.pdf" 
+            href="public/SFURSFallHiringPackage2025-2026.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="underline"
