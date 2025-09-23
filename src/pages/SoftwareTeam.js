@@ -9,30 +9,30 @@ export const SoftwareTeams = () => {
   const teamMembers = [
 
     //Fall 25
-    // {
-    //   image: sukhrajPureWal,
-    //   name: "Sukhraj Purewal",
-    //   role: "Software Team Co-Leader",
-    //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
-    // },
-    // {
-    //   image: jonathanUng,
-    //   name: "Jonathan Keith Ung",
-    //   role: "Software Team Co-Leader",
-    //   linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
-    // },
-    // {
-    //   image: defaultPhoto,
-    //   name: "Jimmy Zhou",
-    //   role: "Head of Software Engineering",
-    //   linkedIn: "https://www.linkedin.com/in/jimmy-z-3849b8224/",
-    // },
-    // {
-    //   image: jonathanUng,
-    //   name: "Jonathan Keith Ung",
-    //   role: "Software Team Co-Leader",
-    //   linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
-    // },
+    {
+      image: sukhrajPureWal,
+      name: "Sukhraj Purewal",
+      role: "Software Team Co-Leader",
+      linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
+    },
+    {
+      image: jonathanUng,
+      name: "Jonathan Keith Ung",
+      role: "Software Team Co-Leader",
+      linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
+    },
+    {
+      image: defaultPhoto,
+      name: "Jimmy Zhou",
+      role: "Head of Software Engineering",
+      linkedIn: "https://www.linkedin.com/in/jimmy-z-3849b8224/",
+    },
+    {
+      image: jonathanUng,
+      name: "Jonathan Keith Ung",
+      role: "Software Team Co-Leader",
+      linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
+    },
   ];
 
   const openRoles = [
@@ -44,15 +44,15 @@ export const SoftwareTeams = () => {
     //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
     //   descriptionLink: null,
     // },
-    {
-      name: "Software Developer",
-      description:
-        "Build and test software components in C++, Python, QML, and XML. Contribute to multiple sub-projects and maintain. detailed documentation in a team setting. Write tests with Boost.UT and create documentation",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
-      descriptionLink: null,
-      goTo: "/teams/software",
-    },
+    // {
+    //   name: "Software Developer",
+    //   description:
+    //     "Build and test software components in C++, Python, QML, and XML. Contribute to multiple sub-projects and maintain. detailed documentation in a team setting. Write tests with Boost.UT and create documentation",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLSc-b423mbwLRkFVAT65FnJ12MS8A6forlrx4sAF_gnLMmj4pw/viewform?usp=sharing&ouid=103666114779303861294",
+    //   descriptionLink: null,
+    //   goTo: "/teams/software",
+    // },
   ];
 
   return (
