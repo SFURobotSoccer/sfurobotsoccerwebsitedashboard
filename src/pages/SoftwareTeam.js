@@ -7,24 +7,26 @@ import defaultPhoto from "../images/peopleimages/default_profile.webp";
 
 export const SoftwareTeams = () => {
   const teamMembers = [
-    {
-      image: sukhrajPureWal,
-      name: "Sukhraj Purewal",
-      role: "Software Team Co-Leader",
-      linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
-    },
-    {
-      image: jonathanUng,
-      name: "Jonathan Keith Ung",
-      role: "Software Team Co-Leader",
-      linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
-    },
-    {
-      image: defaultPhoto,
-      name: "Jimmy Zhou",
-      role: "Head of Software Engineering",
-      linkedIn: "https://www.linkedin.com/in/jimmy-z-3849b8224/",
-    },
+
+    //Fall 25
+    // {
+    //   image: sukhrajPureWal,
+    //   name: "Sukhraj Purewal",
+    //   role: "Software Team Co-Leader",
+    //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
+    // },
+    // {
+    //   image: jonathanUng,
+    //   name: "Jonathan Keith Ung",
+    //   role: "Software Team Co-Leader",
+    //   linkedIn: "https://www.linkedin.com/in/jonathan-ung-1193a2238/",
+    // },
+    // {
+    //   image: defaultPhoto,
+    //   name: "Jimmy Zhou",
+    //   role: "Head of Software Engineering",
+    //   linkedIn: "https://www.linkedin.com/in/jimmy-z-3849b8224/",
+    // },
     // {
     //   image: jonathanUng,
     //   name: "Jonathan Keith Ung",
