@@ -76,8 +76,8 @@ export const OpenRoles = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
-    /*
-    FAll 25
+   
+    //FAll 25
     {
       name: "VP of Internal Relations",
       description:
@@ -141,6 +141,7 @@ export const OpenRoles = () => {
       descriptionLink: null,
       goTo: "/join",
     },
+     /*
      {
         name: "Mechanics Co-Lead",
         description:
