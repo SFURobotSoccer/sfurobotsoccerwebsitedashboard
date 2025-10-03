@@ -23,7 +23,7 @@ export const Contact = () => {
             </h3>
             <p>
               <h4 className="plus-jakarta-sans-body text-black transition duration-500 ease-in-out lg:hover:text-opacity-100 lg:text-opacity-50 text-sm mb-1 unselectable">
-                contact@sfurobotsoccer.com
+                sfurs@sfu.ca
               </h4>
             </p>
 
