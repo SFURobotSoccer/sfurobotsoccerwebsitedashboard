@@ -248,9 +248,9 @@ export const Join = () => {
           Join The Team
         </h2>
 
-      <h3 className="plus-jakarta-sans-heading text-2xl mb-0">Open Roles</h3>
-      
-  {/*
+        <h3 className="plus-jakarta-sans-heading text-2xl mb-0">Open Roles</h3>
+
+        {/*
         <a 
           href="/SFURSFallHiringPackage2025-2026.pdf" 
           target="_blank" 
@@ -260,7 +260,7 @@ export const Join = () => {
           View Full Hiring Package
         </a>
    */}
-            
+
         <p className="plus-jakarta-sans-body text-black w-11/12 text-sm lg:mb-5 text-opacity-40 leading-6"></p>
         <div className="flex flex-row items-center gap-4 mb-5">
           <button
@@ -321,8 +321,8 @@ export const Join = () => {
               ))
             ) : (
               <h2 className="plus-jakarta-sans-body text-black text-lg lg:leading-6">
-                There are currently not any open positions at SFU RS, however
-                keep up to date with our social media, and join our{" "}
+                There are currently no positions available at the moment. Follow
+                us @sfurobotsoccer on Instagram and join our{" "}
                 <a
                   className="text-red-700"
                   href="https://discord.com/invite/CK3nws9YPY"
@@ -330,7 +330,7 @@ export const Join = () => {
                 >
                   discord
                 </a>{" "}
-                to find out when they next openings get released!
+                to find out when the next openings get released!
               </h2>
             )}
           </div>
@@ -376,8 +376,8 @@ export const Join = () => {
               ))
             ) : (
               <h2 className="plus-jakarta-sans-body text-black text-lg lg:leading-6">
-                There are currently not any open positions at SFU RS, however
-                keep up to date with our social media, and join our{" "}
+                There are currently no positions available at the moment. Follow
+                us @sfurobotsoccer on Instagram and join our{" "}
                 <a
                   className="text-red-700"
                   href="https://discord.com/invite/CK3nws9YPY"
@@ -385,7 +385,7 @@ export const Join = () => {
                 >
                   discord
                 </a>{" "}
-                to find out when they next openings get released!
+                to find out when the next openings get released!
               </h2>
             )}
           </div>
