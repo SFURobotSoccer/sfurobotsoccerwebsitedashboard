@@ -6,7 +6,7 @@ import {
   FiUsers,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import NewSponsorPackageSFURS from "../../files/New Sponsor Package SFURS.pdf";
+import NewSponsorPackageSFURS from "../../files/SFURS Sponsorship Package.pdf";
 
 export const BecomeSponsor = () => {
   return (
