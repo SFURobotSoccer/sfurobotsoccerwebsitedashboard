@@ -2,7 +2,10 @@ import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 import React, {useState} from "react";
 import richKo from '../../images/peopleimages/default_profile.webp';
 import rahimDharamsi from '../../images/peopleimages/rahim.webp';
-import mohnishDevarapalli from '../../images/peopleimages/mohnish.webp';
+import clarenceCheng from "../../images/peopleimages/clarenceCheng.jpeg";
+import parmSidhu from "../../images/peopleimages/parmSidhu.jpeg";
+import juliaSun from "../../images/peopleimages/juliaSun.jpeg";
+import mohnishDevarapalli from "../../images/peopleimages/mohnish.webp";
 import willAlmeida from "../../images/WillDeAlmeida.webp";
 import harjotSingh from "../../images/peopleimages/harjotSingh.webp";
 import jayKewalramani from "../../images/1710526962488.webp";
@@ -41,18 +44,18 @@ export const Coordinators = () => {
       role: "Web Development Coordinator",
       linkedIn: "https://www.linkedin.com/in/harjotsingh7/",
     },
-    {
-      image: adamNguyen,
-      name: "Adam Nguyen",
-      role: "Graphic Design Coordinator",
-      linkedIn: "https://www.linkedin.com/in/adam-nguyen-02b522312/",
-    },
-    {
-      image: aliRzvi,
-      name: "Ali Rizvi",
-      role: "Accounting Coordinator",
-      linkedIn: "https://www.linkedin.com/in/ali-rizvi-89a7a1250/",
-    },
+    // {
+    //   image: adamNguyen,
+    //   name: "Adam Nguyen",
+    //   role: "Graphic Design Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/adam-nguyen-02b522312/",
+    // },
+    // {
+    //   image: aliRzvi,
+    //   name: "Ali Rizvi",
+    //   role: "Accounting Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/ali-rizvi-89a7a1250/",
+    // },
     // {
     //   image: jayKewalramani,
     //   name: "Jay Kewalramani",
@@ -60,11 +63,29 @@ export const Coordinators = () => {
     //   linkedIn:
     //     "https://www.linkedin.com/in/jay-kewalramani-645510259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     // },
+    // {
+    //   image: richKo,
+    //   name: "Masa Wong",
+    //   role: "Outreach Coordinator",
+    //   linkedIn: "https://www.linkedin.com/company/sfurs/",
+    // },
     {
-      image: richKo,
-      name: "Masa Wong",
-      role: "Outreach Coordinator",
-      linkedIn: "https://www.linkedin.com/company/sfurs/",
+      image: clarenceCheng,
+      name: "Clarence Cheng",
+      role: "Finance Coordinator",
+      linkedIn: "https://www.linkedin.com/in/clarencecheng1/",
+    },
+    {
+      image: parmSidhu,
+      name: "Parm Sidhu",
+      role: "Finance Coordinator",
+      linkedIn: "https://www.linkedin.com/in/parm-s-sidhu/",
+    },
+    {
+      image: juliaSun,
+      name: "Julia Sun",
+      role: "Graphic Design Coordinator",
+      linkedIn: "https://www.linkedin.com/in/juliamsun/",
     },
     {
       image: rahimDharamsi,
@@ -84,18 +105,18 @@ export const Coordinators = () => {
       role: "Outreach Coordinator",
       linkedIn: "https://www.linkedin.com/company/sfurs/",
     },
-    {
-      image: richKo,
-      name: "Winston Thov",
-      role: "Outreach Coordinator",
-      linkedIn: "https://www.linkedin.com/in/winston-thov-2209a120b/",
-    },
-    {
-      image: richKo,
-      name: "Ricky",
-      role: "Finance Coordinator",
-      linkedIn: "https://www.linkedin.com/in/rickyygcheng/",
-    },
+    // {
+    //   image: richKo,
+    //   name: "Winston Thov",
+    //   role: "Outreach Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/winston-thov-2209a120b/",
+    // },
+    // {
+    //   image: richKo,
+    //   name: "Ricky",
+    //   role: "Finance Coordinator",
+    //   linkedIn: "https://www.linkedin.com/in/rickyygcheng/",
+    // },
   ];
 
   return (

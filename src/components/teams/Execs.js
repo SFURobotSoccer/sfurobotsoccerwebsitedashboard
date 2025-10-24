@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import zachSpencer from '../../images/peopleimages/zach_spencer.webp';
 import mani from '../../images/peopleimages/mani.webp';
 import thomasChallis from "../../images/peopleimages/thomas_challis.webp";
+import bellamyWynans from "../../images/peopleimages/bellamyWynans.webp";
 import defaultPhoto from "../../images/peopleimages/default_profile.webp";
 import borisStanic from "../../images/1729720539932.jpeg";
 import sachkeeratSandhu from "../../images/1746347081394.jpeg";
@@ -36,6 +37,12 @@ export const Execs = () => {
       name: "Thomas Challis",
       role: "VP Internal Relations",
       linkedIn: "https://www.linkedin.com/in/thomas-challis-36460b1ba/",
+    },
+    {
+      image: bellamyWynans,
+      name: "Bellamy Wynans",
+      role: "VP Internal Relations",
+      linkedIn: "https://www.linkedin.com/in/bellamywynans/",
     },
     {
       image: jayKewalramani,
