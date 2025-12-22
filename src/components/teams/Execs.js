@@ -17,6 +17,8 @@ import jonathanUng from "../../images/jonathanUng.webp";
 import hoomehrMangoli from "../../images/peopleimages/hoomehrMangoli.jpg";
 import emmaQiu from "../../images/emmaQiu.jpeg";
 import anmolDhaliwal from "../../images/anmolDhaliwal2.png";
+import camilleNg from "../../images/camilleNg.jpeg";
+import maddenWynans from "../../images/maddenWynans.jpeg";
 
 export const Execs = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -107,7 +109,7 @@ export const Execs = () => {
     {
       image: hoomehrMangoli,
       name: "Hoomehr Mangoli",
-      role: "Head of Electronics Engineering",
+      role: "Electronics Team Lead",
       linkedIn: "https://www.linkedin.com/in/hoomehr-mangoli-4a2187bb/",
     },
     // {
@@ -116,6 +118,19 @@ export const Execs = () => {
     //   role: "Head of Software Engineering",
     //   linkedIn: "https://www.linkedin.com/in/sukhraj-purewal-78b6b1222/",
     // },
+
+    {
+      image: camilleNg,
+      name: "Camille Ng",
+      role: "Software Team Lead",
+      linkedIn: "https://www.linkedin.com/in/camillekng/",
+    },
+    {
+      image: maddenWynans,
+      name: "Madden Wynans",
+      role: "Lead Firmware Engineer",
+      linkedIn: "https://www.linkedin.com/in/madden-wynans/",
+    },
   ];
 
   return (
