@@ -332,7 +332,7 @@ export const Join = () => {
             id={`${!techRoles ? "buttonPrimary" : "buttonSecondary"}`}
             className="flex items-center gap-2 plus-jakarta-sans-button text-sm px-4 py-2 tracking-wide rounded-md"
           >
-            Buiness Roles
+            Business Roles
           </button>
           <button
             onClick={() => setTechRoles(true)}
