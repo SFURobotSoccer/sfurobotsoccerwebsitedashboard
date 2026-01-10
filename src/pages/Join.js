@@ -92,10 +92,46 @@ export const Join = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
+    //SPRING 2026
+    {
+      name: "VP of Finance",
+      description:
+        "As the VP of Finance, you will direct the club's financial strategy and ensure long-term sustainability. Working closely with the Corporate Relations Team, you'll obtain grants and explore funding opportunities while preparing and managing the club's budget. You'll lead a team of 3-4 finance coordinators, ensuring efficient collaboration and engagement. Your role includes participating in executive meetings where you'll provide crucial insight on high-level decision-making and communicate effectively with Technical Team Leads, shaping the financial future of SFU Robot Soccer.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Finance Coordinator",
+      description:
+        "As a Finance Coordinator, you will be instrumental in maintaining the financial health of the club. You'll track purchases, invoices, and receipts while assisting in drafting motions and managing sub-team balances. Working closely with the finance team, you'll support semesterly budget planning, reconcile accounts, and monitor spending against budgets. Your attention to detail and organizational skills will ensure that internal finance records remain up to date, enabling the club to operate smoothly and make informed financial decisions.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Graphic Design Coordinator",
+      description:
+        "As the Graphic Design Coordinator, you will shape the visual identity and online presence of SFU Robot Soccer. You'll create engaging posts, reels, videos, and promotional materials for club events and initiatives while managing the club's branding across platforms. Your creative vision will coordinate social media campaigns and content creation, and you'll capture photos and videos at events for future promotional use. This role offers the opportunity to build a professional brand and showcase the exciting work of the team to the broader SFU community.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Website Development Coordinator",
+      description:
+        "As the Website Development Coordinator, you will maintain and enhance the digital face of SFU Robot Soccer. You'll update and improve the club website to ensure content is accurate, functional, and visually consistent using modern frontend technologies like React.js and Tailwind CSS. By maintaining a clean, well-structured, and documented codebase, you'll support long-term sustainability and team collaboration. You'll coordinate website-related tasks, deployments, and minor feature updates in alignment with club goals, ensuring our online presence reflects the innovation happening on our robotics team.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
   ];
 
   const openRolesTech = [
-    
     // Fall 25
     //       {
     //     name: "Mechanics Co-Lead",
@@ -220,24 +256,53 @@ export const Join = () => {
     //   descriptionLink: null,
     //   goTo: "/teams/electronics",
     // },
-    // {
-    //   name: "Firmware Engineer",
-    //   description:
-    //     "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/teams/firmware",
-    // },
-    // {
-    //   name: "Software Developer",
-    //   description:
-    //     "As a Software Developer on the software team, you will be contributing to enhance our software through designing & implementing new features, mainly including AI. The software team, in charge of making the brain for our robots, develop and utilise AI to create match-winning tactics. Additionally, they take advantage of graphical simulation to virtually test our fleet of robots. The collaborative environment within the software team ensures that our software evolves seamlessly, setting new standards in the field.",
-    //   linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLSczbwnwjTU9ooCiO29Z1DhqNlMD20jn-GUWWZ2dpHXqnIvl5g/viewform",
-    //   descriptionLink: null,
-    //   goTo: "/teams/software",
-    // },
+
+    // SPRING 2026
+    {
+      name: "Mechanics Co-Lead",
+      description:
+        "As a Mechanics Co-Lead, you will guide the mechanics team in designing the physical components that bring our robots to life. You'll lead system-level planning, delegate tasks effectively, and ensure the team operates smoothly through bi-weekly meetings. Your role involves researching and evaluating materials to consistently improve mechanical quality while collaborating with other team leads on high-level decisions. Your leadership will be crucial in transforming innovative designs into functional robotic systems that compete at the highest level.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/teams/firmware",
+    },
+    {
+      name: "Mechanics Engineer",
+      description:
+        "As a Mechanics Engineer, you will help design and prototype the mechanical and electromechanical systems that power our robots. Using CAD programs and 3D printing technology, you'll transform concepts into tangible components that perform under competition conditions. You'll research and evaluate materials to ensure consistent improvement of mechanical quality while working collaboratively with the team. This hands-on role offers the opportunity to see your designs come to life and directly contribute to the physical capabilities of our robot soccer team.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/teams/firmware",
+    },
+    {
+      name: "Electronics Engineer",
+      description:
+        "As an Electronics Engineer, you will design and modify custom PCBs using Altium designer, creating the electronic foundation of our robots. You'll bring up and troubleshoot PCBs designed by the team, complete assembly and rework as needed, and work collaboratively with other members to integrate new components. Your strong electronics knowledge will be essential in ensuring our robots have reliable, high-performance electronic systems. This role offers hands-on experience with advanced PCB design and the opportunity to see your circuits power real competitive robots.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/teams/firmware",
+    },
+    {
+      name: "Firmware Developer",
+      description:
+        "As a Firmware Developer, you will create the real-time systems that control our robots through embedded C programming. You'll implement communication protocols, contribute to code reviews, and optimize firmware performance while conducting integration testing across all robotic subsystems. Working collaboratively with electronics and software teams, you'll ensure seamless communication between hardware and high-level control systems. Your work with microcontrollers and real-time scheduling will be critical in achieving the split-second responsiveness needed for competitive robot soccer.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/teams/firmware",
+    },
+    {
+      name: "Software Developer",
+      description:
+        "As a Software Developer, you will implement project components using C++ and work on a variety of sub-projects within a collaborative team environment. You'll contribute to Agent, Pathplanning, and Integration systems while creating documentation that supports the team's development. Making merge requests and completing tickets, you'll help evolve the software that serves as the brain of our robots. The fast-paced, collaborative environment demands discipline and adaptability, offering you the chance to work on cutting-edge robotics software and see your code drive match-winning performance on the field.",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/teams/software",
+    },
   ];
 
   return (
@@ -279,7 +344,7 @@ export const Join = () => {
         </div>
         {/* <p className="plus-jakarta-sans-body text-lg">There are currently no open roles for the electronics team.</p> */}
         {techRoles ? (
-          <div className="flex gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
+          <div className="flex w-full gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
             {openRolesTech.length !== 0 ? (
               openRolesTech.map((role, index) => (
                 <>
@@ -334,7 +399,7 @@ export const Join = () => {
             )}
           </div>
         ) : (
-          <div className="flex gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
+          <div className="flex w-full gap-10 mt-10 lg:mt-0 lg:gap-4 flex-col">
             {openRoles.length !== 0 ? (
               openRoles.map((role, index) => (
                 <>

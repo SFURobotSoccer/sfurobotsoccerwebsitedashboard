@@ -76,71 +76,70 @@ export const OpenRoles = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
-    
     //FAll 25
-    {
-      name: "VP of Internal Relations",
-      description:
-        "",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Outreach Co-Lead",
-      description:
-        "",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Finance Coordinator",
-      description:
-        "As the Finance Coordinator, you will manage the team’s budget, track expenses, and ensure compliance with funding guidelines. This role is suited for individuals with a strong grasp of financial principles and Excel skills, who are ready to contribute to the team’s financial transparency and success.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Corporate Relations Coordinator",
-      description:
-        "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Outreach Coordinator",
-      description:
-        "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
-      linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Marketing Coordinator",
-      description:
-        "",
-       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
-    {
-      name: "Learning Groups Coordinator",
-      description:
-        "",
-       linkApply:
-        "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-      descriptionLink: null,
-      goTo: "/join",
-    },
+    // {
+    //   name: "VP of Internal Relations",
+    //   description:
+    //     "",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Outreach Co-Lead",
+    //   description:
+    //     "",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Finance Coordinator",
+    //   description:
+    //     "As the Finance Coordinator, you will manage the team’s budget, track expenses, and ensure compliance with funding guidelines. This role is suited for individuals with a strong grasp of financial principles and Excel skills, who are ready to contribute to the team’s financial transparency and success.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Corporate Relations Coordinator",
+    //   description:
+    //     "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Outreach Coordinator",
+    //   description:
+    //     "As the Outreach Coordinator, you will inspire the next generation of engineers by organizing robotics workshops and events at local high schools. This role is perfect for individuals passionate about education and who excel in making complex concepts accessible and exciting.",
+    //   linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Marketing Coordinator",
+    //   description:
+    //     "",
+    //    linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
+    // {
+    //   name: "Learning Groups Coordinator",
+    //   description:
+    //     "",
+    //    linkApply:
+    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
+    //   descriptionLink: null,
+    //   goTo: "/join",
+    // },
     /*
      {
         name: "Mechanics Co-Lead",
@@ -197,7 +196,80 @@ export const OpenRoles = () => {
       goTo: "/teams/software",
     },
     */
-  
+    // SPRING 2026
+    {
+      name: "VP of Finance",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Finance Coordinator",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Graphic Design Coordinator",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Website Development Coordinator",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    // technical
+    {
+      name: "Mechanics Co-Lead",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Mechanics Engineer",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Electronics Engineer",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Firmware Developer",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
+    {
+      name: "Software Developer",
+      description: "",
+      linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSc2r3n1P-a7Gco_vPAZuvEI1tRcOyYQZefkWfbcgbJMAf5XsA/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
   ];
 
   return (
