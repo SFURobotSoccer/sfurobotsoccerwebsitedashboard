@@ -222,7 +222,8 @@ export const OpenRoles = () => {
       descriptionLink: null,
       goTo: "/join",
     },
-    name: "Marketing Coordinator",
+    {
+      name: "Marketing Coordinator",
       description:
         "",
        linkApply:
