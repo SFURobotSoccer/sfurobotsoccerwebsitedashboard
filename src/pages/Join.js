@@ -74,7 +74,7 @@ export const Join = () => {
     //   descriptionLink: null,
     //   goTo: "/join",
     // },
-    // {
+    {
       name: "Marketing Coordinator",
       description:
         "",
