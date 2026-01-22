@@ -75,14 +75,14 @@ export const Join = () => {
     //   goTo: "/join",
     // },
     // {
-    //   name: "Marketing Coordinator",
-    //   description:
-    //     "",
-    //    linkApply:
-    //     "https://docs.google.com/forms/d/e/1FAIpQLScTyieZBFZa2BNwD5Ab6T-dOWGFJDDai-t1RPMpnSvkPVGY-w/viewform?usp=preview",
-    //   descriptionLink: null,
-    //   goTo: "/join",
-    // },
+      name: "Marketing Coordinator",
+      description:
+        "",
+       linkApply:
+        "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
+      descriptionLink: null,
+      goTo: "/join",
+    },
     // {
     //   name: "Learning Groups Coordinator",
     //   description:
