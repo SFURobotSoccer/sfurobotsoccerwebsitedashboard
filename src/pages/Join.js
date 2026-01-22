@@ -77,7 +77,7 @@ export const Join = () => {
     {
       name: "Marketing Coordinator",
       description:
-        "",
+        "As the Marketing Coordinator, you will drive SFU Robot Soccer’s public presence and brand identity. Working closely with the VP of Public Relations, you will photograph and document club events, create engaging social media content, and promote team initiatives across platforms. You’ll help shape how the club is presented to sponsors, members, and the wider community, while actively participating in organization-wide meetings and events. This role requires a commitment of 4–6 hours per week and offers hands-on experience in content creation, branding, and digital marketing within a competitive engineering club environment.",
        linkApply:
         "https://docs.google.com/forms/d/e/1FAIpQLSeBXBQoupukG1FsMMmHKKZH_Ran7vyAsEDoLK25n6AKxB5SsQ/viewform",
       descriptionLink: null,
